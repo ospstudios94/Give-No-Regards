@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]private float throwRate = 1.5f;
     [SerializeField]private GameObject throwItem;
     [SerializeField]private Transform throwPoint;
+    [SerializeField]private float throwForce = 500f;
 
     [Header("Attack Attributes")]
     [SerializeField]private float attackRate = 1f;
@@ -123,7 +124,7 @@ rig.linearVelocity = Vector2.zero;
         GameObject bulletObj = Instantiate(throwItem, throwPoint.position, Quaternion.identity);
        
         Rigidbody2D newRig = bulletObj.GetComponent<Rigidbody2D>();
-        newRig.AddForce(lastFacingDirection * 1000, ForceMode2D.Impulse);
+        newRig.AddForce(lastFacingDirection * throwForce, ForceMode2D.Impulse);
 
        // add directionals and animation here
       
