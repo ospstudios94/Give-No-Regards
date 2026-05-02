@@ -52,7 +52,9 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 [sourceFiles]
 Assets/
  Game_Inputs.cs
- Project/Scripts/Player/PlayerController.cs
+ Project/Scripts/
+  Gameplay/FollowCamera.cs
+  Player/PlayerController.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
 [metadataReferences]

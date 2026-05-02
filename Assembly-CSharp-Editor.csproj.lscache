@@ -52,7 +52,6 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 [sourceFiles]
 Assets/Editor/
  FolderSetup.cs
- ManagerCreator.cs
  MenuGenerator.cs
  ProjectSetup.cs
 Temp/obj/Assembly-CSharp-Editor/.NETStandard,Version=v2.1.AssemblyAttributes.cs
