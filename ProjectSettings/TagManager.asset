@@ -2,8 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - NPC
+  - Collectable
+  - Destructible
+  - Weapon
+  - EnemyWeapon
+  - Imposter
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -13,15 +21,15 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Hazard
+  - PlayerWeapon
+  - EnemyWeapon
+  - NPC
+  - Trigger
+  - Items
+  - Fake
   - 
   - 
   - 
@@ -41,3 +49,39 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 428224017
+    locked: 0
+  - name: Ground
+    uniqueID: 2024493761
+    locked: 0
+  - name: Water
+    uniqueID: 0
+    locked: 0
+  - name: Wall1
+    uniqueID: 593505783
+    locked: 0
+  - name: Wall2
+    uniqueID: 593505780
+    locked: 0
+  - name: Top
+    uniqueID: 1502599955
+    locked: 0
+  - name: Decor
+    uniqueID: 75893211
+    locked: 0
+  - name: Items
+    uniqueID: 0
+    locked: 0
+  - name: Triggers
+    uniqueID: 1837685899
+    locked: 0
+  - name: Weapons
+    uniqueID: 1671596741
+    locked: 0
+  - name: Characters
+    uniqueID: 751597202
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
