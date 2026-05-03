@@ -55,6 +55,9 @@ Assets/
  Project/Scripts/Enemy/
   Enemy.cs
   EnemyHealth.cs
+ Project/Scripts/Extra/
+  RestorePressureItem.cs
+  RestoreUseitem.cs
  Project/Scripts/Gameplay/
   FollowCamera.cs
   IDamagable.cs

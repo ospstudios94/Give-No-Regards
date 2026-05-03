@@ -95,6 +95,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Rest",
+                    "type": "Button",
+                    "id": "21c9eeb3-0c48-4a98-b18a-c5e9d57513b1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -392,6 +401,28 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22e11717-275c-437c-9d48-91bd4c439915",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Rest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9c14f6f-e3cd-4dc5-b403-6d2771fed422",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rest",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

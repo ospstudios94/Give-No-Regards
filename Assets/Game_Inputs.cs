@@ -181,6 +181,15 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Rest"",
+                    ""type"": ""Button"",
+                    ""id"": ""21c9eeb3-0c48-4a98-b18a-c5e9d57513b1"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": ""Hold"",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -478,6 +487,28 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""Confirm"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""22e11717-275c-437c-9d48-91bd4c439915"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Rest"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d9c14f6f-e3cd-4dc5-b403-6d2771fed422"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rest"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1075,6 +1106,7 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
         m_Player_Throw = m_Player.FindAction("Throw", throwIfNotFound: true);
         m_Player_Cancel = m_Player.FindAction("Cancel", throwIfNotFound: true);
         m_Player_Confirm = m_Player.FindAction("Confirm", throwIfNotFound: true);
+        m_Player_Rest = m_Player.FindAction("Rest", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1178,6 +1210,7 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Throw;
     private readonly InputAction m_Player_Cancel;
     private readonly InputAction m_Player_Confirm;
+    private readonly InputAction m_Player_Rest;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1229,6 +1262,10 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Confirm".
         /// </summary>
         public InputAction @Confirm => m_Wrapper.m_Player_Confirm;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Rest".
+        /// </summary>
+        public InputAction @Rest => m_Wrapper.m_Player_Rest;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1285,6 +1322,9 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
             @Confirm.started += instance.OnConfirm;
             @Confirm.performed += instance.OnConfirm;
             @Confirm.canceled += instance.OnConfirm;
+            @Rest.started += instance.OnRest;
+            @Rest.performed += instance.OnRest;
+            @Rest.canceled += instance.OnRest;
         }
 
         /// <summary>
@@ -1326,6 +1366,9 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
             @Confirm.started -= instance.OnConfirm;
             @Confirm.performed -= instance.OnConfirm;
             @Confirm.canceled -= instance.OnConfirm;
+            @Rest.started -= instance.OnRest;
+            @Rest.performed -= instance.OnRest;
+            @Rest.canceled -= instance.OnRest;
         }
 
         /// <summary>
@@ -1696,6 +1739,13 @@ public partial class @Game_Inputs: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnConfirm(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Rest" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnRest(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.

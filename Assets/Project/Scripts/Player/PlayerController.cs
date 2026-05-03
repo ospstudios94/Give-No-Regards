@@ -55,10 +55,15 @@ public class PlayerController : MonoBehaviour, IDamagable
     public float decayRate = 1f; 
     public float regenRate = 2f; // How fast they recover while standing still
     
-
+    public bool isPressureDrained; // global variable.. to stop the drain or not
     public float healthDrainRate = 2f; // Damage per second when at 0
-    private float damageTickTimer = 0f;
+    private float damageTickTimer = 0f; // when the timer starts for health drain
     private float heartbeatTimer;
+
+    private bool isRestoring;
+
+    private int totalCount = 0;
+    public int maxUse =3;
     
     void Awake()
     {
@@ -79,6 +84,8 @@ public class PlayerController : MonoBehaviour, IDamagable
           screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         objectWidth = transform.GetComponent<SpriteRenderer>().bounds.extents.x; 
     objectHeight = transform.GetComponent<SpriteRenderer>().bounds.extents.y;
+
+     
     }
 
     void InitializeInputs()
@@ -91,9 +98,12 @@ public class PlayerController : MonoBehaviour, IDamagable
         games.Player.Attack.performed += InitiateAttack;
 
         games.Player.Interact.performed += Interaction;
+        games.Player.Rest.performed += ctx => isRestoring = true;
+        games.Player.Rest.canceled += ctx => isRestoring  = false;
 
     }
 
+    
     private void Interaction(InputAction.CallbackContext context)
     {
         throw new NotImplementedException();
@@ -166,8 +176,19 @@ rig.linearVelocity = Vector2.zero;
             _speed = _initialSpeed * pressureRatio ;
         }
 
-   
-        
+   if(games.Player.Rest.WasReleasedThisFrame())
+        {
+            
+            totalCount++;
+            
+            if(totalCount == maxUse)
+            {
+                Debug.Log(games.Player.Rest.ToString() + isRestoring.ToString() + totalCount.ToString() + maxUse.ToString() );
+
+                games.Player.Rest.Disable();
+            }
+        }
+  
     }
 
     void FixedUpdate()
@@ -197,31 +218,34 @@ rig.linearVelocity = Vector2.zero;
 
     }
 
-    private void PressureDrain()
+
+    private void PressureDrain() // will hold a button to press
     {
 
-        bool isStandingStill = rig.linearVelocity.magnitude < 0.1f;
+       if(isPressureDrained) return;
+       
+        pressure -= decayRate * Time.fixedDeltaTime;
 
-        if (isStandingStill)
-        {
-            pressure += regenRate * Time.fixedDeltaTime;
-        }
-        else
-        {
-             pressure -= decayRate * Time.fixedDeltaTime;
+    
+         bool isStandingStill = rig.linearVelocity.magnitude < 0.1f;
+         CalculateCriticalPressure();
+         if (isStandingStill && isRestoring)
+         { 
+            if(pressure < maxPressure)
+            {
+                pressure += regenRate * Time.fixedDeltaTime;
+            }
+       
         }
        
-       
-
         pressure = Mathf.Clamp(pressure, 0, maxPressure);
-
-        CalculateCriticalPressure();
+       
     }
 
     private void CalculateCriticalPressure()
     {
         float pressurePercent = (pressure / maxPressure) * 100f; // calculate percentage
-        AudioSource source = GetComponent<AudioSource>();
+        // AudioSource source = GetComponent<AudioSource>();
           // HANDLE HEALTH DRAIN
         if (pressure <= 0)
         {
@@ -272,7 +296,7 @@ rig.linearVelocity = Vector2.zero;
         // }
         }
     }
-    void PlayHeartbeat()
+    void PlayHeartbeat() // will use the audio manager
 {
     AudioSource source = GetComponent<AudioSource>();
     if (source && source.clip != null)
@@ -358,12 +382,31 @@ rig.linearVelocity = Vector2.zero;
 }
 
 // for items to call
- public void RestorePressure(float amount) {
+ public void RestorePressure(float amount) 
+    {
         pressure += amount;
         pressure = Mathf.Clamp(pressure, 0, maxPressure);
     }
 
-     public float GetDamageMultiplier()
+    public void OnUseIncreased(int use)
+    { 
+        totalCount = 0;
+        if(games.Player.Rest.enabled == false)
+        {
+       
+        maxUse += use;
+        
+        games.Player.Rest.Enable();
+
+        }
+    }
+    public void OnHeal( int amount)
+    { 
+       hp += amount;
+       hp = Mathf.Clamp(hp , 0, maxHp);   
+    }
+   
+    public float GetDamageMultiplier()
     {
         // Example: Base is 1.0. If pressure is < 20, return 2.0 (Double Damage).
         // Otherwise, return 1.0 (Normal Damage).
