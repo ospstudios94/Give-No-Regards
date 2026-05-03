@@ -1,6 +1,9 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class UI_Manager : MonoBehaviour
 {
@@ -11,13 +14,29 @@ public class UI_Manager : MonoBehaviour
     public static UI_Manager Instance; // Reference when being invoked.
     private static UI_Manager _instance;
 
-    public GameObject pauseMenu;
-    public GameObject optionsMenu;
-    public GameObject inventoryMenu;
-    public GameObject winScreen;
-    public GameObject loseScreen;
+    // [Header("Menus and Screens")]
+    // public GameObject pauseMenu;
+    // public GameObject optionsMenu;
+    // public GameObject inventoryMenu;
+    // public GameObject winScreen;
+    // public GameObject loseScreen;
 
-    public bool isPaused = false;
+    // [Header("Settings")]
+    // public bool isPaused = false;
+
+    
+    [Header("Player UI")]
+    public Slider healthSlider;
+    public Slider staminaSlider; // this will decrease inGame 5 minutes by 1.
+
+    public TMP_Text healthText;
+    public TMP_Text timerText;
+
+    PlayerController player;
+    // [Header("Enemy UI")]
+    // public Slider enemyHealth;
+    // may add a damage text.
+
 
  
     void Awake()
@@ -32,111 +51,128 @@ public class UI_Manager : MonoBehaviour
         _instance = this;
         Instance = this;
 
-
+    player =  FindAnyObjectByType<PlayerController>();
        
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        winScreen.SetActive(false);
-        loseScreen.SetActive(false);
-        pauseMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        inventoryMenu.SetActive(false);
+        UpdateHealthSlider();
+        UpdateStamina();
+        // winScreen.SetActive(false);
+        // loseScreen.SetActive(false);
+        // pauseMenu.SetActive(false);
+        // optionsMenu.SetActive(false);
+        // inventoryMenu.SetActive(false);
        
     }
 
+    void UpdateHealthSlider()
+    {
+        healthSlider.value = player.hp;
+        healthSlider.maxValue = player.maxHp;
+        healthText.text = $"{player.hp} /{player.maxHp}";
+        // healthText.SetText("{0} / {1}", player.hp, player.maxHp);
+    }
+    void UpdateStamina()
+    {
+         staminaSlider.value = player.pressure;
+        staminaSlider.maxValue = player.maxPressure;
+    }
     // Update is called once per frame
     void Update()
     {
-        if(isPaused)
-        {
-           GameManager.Instance.SetTimeScale(0);
-           OpenPauseMenu();
-            // stop player Movement here
-        }
-        else if(!isPaused)
-        {
-          GameManager.Instance.SetTimeScale(1);
-          CloseMenu();
-            // enable player movement here
-        }
+        UpdateHealthSlider();
+        UpdateStamina();
+        // if(isPaused)
+        // {
+        //    GameManager.Instance.SetTimeScale(0);
+        //    OpenPauseMenu();
+        //     // stop player Movement here
+        // }
+        // else if(!isPaused)
+        // {
+        //   GameManager.Instance.SetTimeScale(1);
+        //   CloseMenu();
+        //     // enable player movement here
+        // }
     }
+#region OPEN & CLOSING MENUS
+    // public void OpenPauseMenu()
+    // {
+    //     pauseMenu.SetActive(true);
+    //     optionsMenu.SetActive(false);
+    //     isPaused = true;
+    // }
 
-    public void OpenPauseMenu()
-    {
-        pauseMenu.SetActive(true);
-        optionsMenu.SetActive(false);
-        isPaused = true;
-    }
+    // public void CloseMenu()
+    // {
+    //     pauseMenu.SetActive(false);
+    //     optionsMenu.SetActive(false);
+    //     isPaused = false;
+    // }
 
-    public void CloseMenu()
-    {
-        pauseMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        isPaused = false;
-    }
-
-    public void CloseOptionsMenu()
-    {
-        optionsMenu.SetActive(false);
-        pauseMenu.SetActive(true);
-        isPaused = true;
-    }
+    // public void CloseOptionsMenu()
+    // {
+    //     optionsMenu.SetActive(false);
+    //     pauseMenu.SetActive(true);
+    //     isPaused = true;
+    // }
+#endregion
 
 #region PAUSE MENU BUTTONS
-    public void GoToMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-    public void ResumeButton()
-    {
-        CloseMenu();
-    }
-    public void OpenOptions()
-    {
-        optionsMenu.SetActive(true);
-        pauseMenu.SetActive(false);
-       isPaused = true;
-    }
+    // public void GoToMainMenu()
+    // {
+    //     SceneManager.LoadScene("MainMenu");
+    // }
+    // public void ResumeButton()
+    // {
+    //     CloseMenu();
+    // }
+    // public void OpenOptions()
+    // {
+    //     optionsMenu.SetActive(true);
+    //     pauseMenu.SetActive(false);
+    //    isPaused = true;
+    // }
     
 #endregion
 
 #region OPTIONS MENU BUTTONS
-    public void OptionsBackButton()
-    {
-        CloseOptionsMenu();
-    }
-    public void SaveSettings()
-    {
-        PlayerPrefs.Save();
-        // save settings here with player Prefs
-        // will be part of the Save Menu if I want to add accessibliity
-    }
-    public void ResetAllToDefault()
-    {
-       // set all to Zero.
-       // save it here.
-    }
+    // public void OptionsBackButton()
+    // {
+    //     CloseOptionsMenu();
+    // }
+    // public void SaveSettings()
+    // {
+    //     PlayerPrefs.Save();
+    //     // save settings here with player Prefs
+    //     // will be part of the Save Menu if I want to add accessibliity
+    // }
+    // public void ResetAllToDefault()
+    // {
+    //    // set all to Zero.
+    //    // save it here.
+    // }
 
 #endregion
 
 #region WIN/LOSE
-    public void OpenWinScreen()
-    {
-        isPaused = true;
-        winScreen.SetActive(true);
-        loseScreen.SetActive(false);
-        // make win screen active
-    }
-    public void OpenLoseScreen()
-    {
-        isPaused = true; 
-        loseScreen.SetActive(true);
-        winScreen.SetActive(false);
+    // public void OpenWinScreen()
+    // {
+    //     isPaused = true;
+    //     winScreen.SetActive(true);
+    //     loseScreen.SetActive(false);
+    //     // make win screen active
+    // }
+    // public void OpenLoseScreen()
+    // {
+    //     isPaused = true; 
+    //     loseScreen.SetActive(true);
+    //     winScreen.SetActive(false);
        
-        // make lose screen active
-    }
+    //     // make lose screen active
+    // }
 #endregion
    
 }

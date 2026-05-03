@@ -52,9 +52,15 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 [sourceFiles]
 Assets/
  Game_Inputs.cs
+ Project/Scripts/Enemy/
+  Enemy.cs
+  EnemyHealth.cs
  Project/Scripts/Gameplay/
   FollowCamera.cs
+  IDamagable.cs
+  IDestructible.cs
   Inventory.cs
+  PlayerProjectile.cs
  Project/Scripts/Managers/
   AudioManager.cs
   DialogueManager.cs

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     public bool isGameOver = false;
 
+    
 
    // make some event here.. but it does not have to be perfect.
 

@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamagable
 {
     Game_Inputs games;
     Rigidbody2D rig;
@@ -43,9 +43,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField]private float attackRate = 1f;
     [SerializeField]GameObject[] hitColliders; // for activating/Deactivating
 
+    public int hp = 100;
+    public int maxHp = 100;
+    public int Health { get => hp; set => hp = value; }
+    private float knockbackTimer;
+    public float knockbackTotalTime = 0.2f;
 
+[Header("Pressure System")]
+ public float pressure = 100f;
+    public float maxPressure = 100f;
+    public float decayRate = 1f; 
+    public float regenRate = 2f; // How fast they recover while standing still
+    
 
-
+    public float healthDrainRate = 2f; // Damage per second when at 0
+    private float damageTickTimer = 0f;
+    private float heartbeatTimer;
     
     void Awake()
     {
@@ -122,7 +135,10 @@ rig.linearVelocity = Vector2.zero;
        Debug.Log("Throwing");   
        // rig.linearVelocity = Vector2.zero;
         GameObject bulletObj = Instantiate(throwItem, throwPoint.position, Quaternion.identity);
-       
+         PlayerProjectile pScript = bulletObj.GetComponent<PlayerProjectile>();
+        if(pScript != null) {
+        pScript.shooterPressure = this; // 'this' refers to this Player script
+    }
         Rigidbody2D newRig = bulletObj.GetComponent<Rigidbody2D>();
         newRig.AddForce(lastFacingDirection * throwForce, ForceMode2D.Impulse);
 
@@ -136,21 +152,30 @@ rig.linearVelocity = Vector2.zero;
     // Update is called once per frame
     void Update()
     {
+        if(Keyboard.current.gKey.wasPressedThisFrame)
+        {
+            Damage(2);
+        }
+          float pressureRatio = Mathf.Clamp(pressure / maxPressure, 0.2f, 1f);
         if(canRun)
         {
-            _speed = _initialSpeed * runMultiplier;
+            _speed = _initialSpeed * runMultiplier * pressureRatio;
         }
         else
         {
-            _speed = _initialSpeed;
+            _speed = _initialSpeed * pressureRatio ;
         }
+
+   
+        
     }
 
     void FixedUpdate()
     {
-        if(canThrow || canAttack) return;
+        KnockBackTimer();
+        if (canThrow || canAttack) return;
         direction = games.Player.Move.ReadValue<Vector2>();
-          if (direction.sqrMagnitude > 0.01f)
+        if (direction.sqrMagnitude > 0.01f)
         {
             // Lock to 4 cardinal directions
             if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
@@ -159,19 +184,115 @@ rig.linearVelocity = Vector2.zero;
                 lastFacingDirection = new Vector2(0, Mathf.Sign(direction.y));
         }
 
-        
-    rig.linearVelocity = direction * _speed * Time.deltaTime;
-        
-        if(!canMove)
+
+        rig.linearVelocity = direction * _speed * Time.fixedDeltaTime;
+
+        if (!canMove)
         {
             rig.linearVelocity = Vector2.zero;
             _speed = 0;
         }
 
-       
-        // add boundaries here
+        PressureDrain();
 
     }
+
+    private void PressureDrain()
+    {
+
+        bool isStandingStill = rig.linearVelocity.magnitude < 0.1f;
+
+        if (isStandingStill)
+        {
+            pressure += regenRate * Time.fixedDeltaTime;
+        }
+        else
+        {
+             pressure -= decayRate * Time.fixedDeltaTime;
+        }
+       
+       
+
+        pressure = Mathf.Clamp(pressure, 0, maxPressure);
+
+        CalculateCriticalPressure();
+    }
+
+    private void CalculateCriticalPressure()
+    {
+        float pressurePercent = (pressure / maxPressure) * 100f; // calculate percentage
+        AudioSource source = GetComponent<AudioSource>();
+          // HANDLE HEALTH DRAIN
+        if (pressure <= 0)
+        {
+            damageTickTimer += Time.fixedDeltaTime;
+            if (damageTickTimer >= 2.0f) // Deal damage every 0.5 seconds
+            {
+                Damage((int)healthDrainRate);
+                damageTickTimer = 0;
+            }
+        }
+     
+         if (pressurePercent <= 10f)
+         {
+         heartbeatTimer -= Time.deltaTime;
+        
+        if (heartbeatTimer <= 0)
+        {
+            PlayHeartbeat();
+
+            // FIX: Set this to 1.0f (or slightly more) so the 1-second 
+            // sound finishes before the next one starts. 
+            // This prevents the "stacking" distortion.
+            heartbeatTimer = 1.15f; 
+        }
+            
+        //      if (!source.isPlaying)
+        // {
+        //     source.loop = true; // Make the 8s clip loop automatically
+        //     source.Play();
+        // }
+          
+            // Speed up the interval: 0.3s if at 0%, 0.8s if at 5%
+           // heartbeatTimer = Mathf.Lerp(0.3f, 0.8f, pressure / (maxPressure * 0.1f));
+            
+            // Interval: Faster at 0% (0.3s), Slower at 10% (1.0s)
+          //  heartbeatTimer = Mathf.Lerp(0.3f, 1.0f, pressure / (maxPressure * 0.1f));
+          
+            // // Optional: Add a UI Shake trigger here
+            // StartCoroutine(ShakeUI(healthText.transform, 0.1f, 0.1f));
+        }
+        
+        else
+        {
+             heartbeatTimer = 0;
+        //     if (source.isPlaying)
+        // {
+        //     source.Stop();
+        // }
+        }
+    }
+    void PlayHeartbeat()
+{
+    AudioSource source = GetComponent<AudioSource>();
+    if (source && source.clip != null)
+    {
+        // Use 0.7f volume to prevent "clipping" when mixed with other game sounds
+        source.PlayOneShot(source.clip, 0.7f);
+    }
+}
+    
+    private void KnockBackTimer()
+    {
+        if (knockbackTimer > 0)
+        {
+            knockbackTimer -= Time.fixedDeltaTime;
+
+            // If the timer just finished, stop the movement completely
+            if (knockbackTimer <= 0) rig.linearVelocity = Vector2.zero;
+        }
+    }
+
     void LateUpdate()
     {
          Vector3 camPos = Camera.main.transform.position;
@@ -207,5 +328,36 @@ rig.linearVelocity = Vector2.zero;
     public void EnableCollider(GameObject hitObject)// for attack in the animator
     {
         ///
+    }
+
+    public void Damage(int damage)
+    {
+       hp -= damage;
+       if(hp <= 0)
+        {
+            Destroy(gameObject, 1.5f);
+            hp = 0;
+            pressure = 0f;
+        }
+    }
+
+    public void ApplyKnockback(Vector2 direction, float force)
+{
+    knockbackTimer = knockbackTotalTime; // Start the timer
+    rig.linearVelocity = Vector2.zero;          // Reset current velocity first
+    rig.AddForce(direction * force, ForceMode2D.Impulse);
+}
+
+// for items to call
+ public void RestorePressure(float amount) {
+        pressure += amount;
+        pressure = Mathf.Clamp(pressure, 0, maxPressure);
+    }
+
+     public float GetDamageMultiplier()
+    {
+        // Example: Base is 1.0. If pressure is < 20, return 2.0 (Double Damage).
+        // Otherwise, return 1.0 (Normal Damage).
+        return (pressure < 20f) ? 2.0f : 1.0f;
     }
 }
