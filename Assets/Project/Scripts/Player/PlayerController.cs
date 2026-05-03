@@ -335,9 +335,18 @@ rig.linearVelocity = Vector2.zero;
        hp -= damage;
        if(hp <= 0)
         {
-            Destroy(gameObject, 1.5f);
+             gameObject.SetActive(false);
             hp = 0;
             pressure = 0f;
+            if(GameManager.Instance != null)
+            {
+                GameManager.Instance.isGameOver = true;
+            }
+            if(UI_Manager.Instance != null)
+            {
+                UI_Manager.Instance.OpenLoseScreen();
+            }
+
         }
     }
 

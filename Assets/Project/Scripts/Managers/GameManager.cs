@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     public bool isGameOver = false;
 
-    
+    PlayerController player;
 
    // make some event here.. but it does not have to be perfect.
 
@@ -30,18 +30,28 @@ public class GameManager : MonoBehaviour
         Instance = this;
 
         SetTimeScale(1);
+        player = FindAnyObjectByType<PlayerController>();
     }
   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        isGameOver = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        if(player.hp <=0)
+        {
+            isGameOver = true;
+        }
+       if(isGameOver)
+        {
+            SetTimeScale(0);
+
+           
+        }
     }
 
  public void SetTimeScale(float scale)
@@ -49,6 +59,7 @@ public class GameManager : MonoBehaviour
         float newScale = Mathf.Clamp01(scale);
         Time.timeScale = newScale;
     }
+
 
 void CheckCondition()
     {

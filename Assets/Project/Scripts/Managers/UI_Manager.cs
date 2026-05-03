@@ -165,14 +165,16 @@ public class UI_Manager : MonoBehaviour
     //     loseScreen.SetActive(false);
     //     // make win screen active
     // }
-    // public void OpenLoseScreen()
-    // {
-    //     isPaused = true; 
-    //     loseScreen.SetActive(true);
-    //     winScreen.SetActive(false);
+    public void OpenLoseScreen()
+    {
+        Debug.Log("You Lose");
+        
+        // isPaused = true; 
+        // loseScreen.SetActive(true);
+        // winScreen.SetActive(false);
        
-    //     // make lose screen active
-    // }
+        // make lose screen active
+    }
 #endregion
    
 }

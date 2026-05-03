@@ -12,6 +12,7 @@ TagManager:
   - EnemyWeapon
   - Imposter
   - Boss
+  - ImposterWeapon
   layers:
   - Default
   - TransparentFX
