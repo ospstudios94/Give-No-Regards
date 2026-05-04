@@ -52,8 +52,8 @@ public class FollowCamera : MonoBehaviour
 
             //// Smoothly move the camera toward that target
             //transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
-            transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, bottomLimit.x, topLimit.x),
-                   Mathf.Clamp(player.transform.position.y, bottomLimit.y, topLimit.y),
+            transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, bottomLimit.x + halfWidth, topLimit.x - halfWidth),
+                   Mathf.Clamp(player.transform.position.y, bottomLimit.y + halfHeight, topLimit.y - halfHeight),
                    transform.position.z);
         }
 }

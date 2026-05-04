@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour, IDamagable
 
         games.Player.Throw.performed += ThrowObject;
       //
-      //games.Player.Attack.performed += InitiateAttack;
+      games.Player.Attack.performed += InitiateAttack;
 
         games.Player.Interact.performed += Interaction;
         games.Player.Rest.performed += ctx => isRestoring = true;
@@ -113,64 +113,66 @@ public class PlayerController : MonoBehaviour, IDamagable
         throw new NotImplementedException();
     }
 
-    //private void InitiateAttack(InputAction.CallbackContext context)
-    //{
-    //    HandleAttacks();
-    //   // if(Time.time > attackRate + lastAttackRate)
-    //   //{
-    //   //     lastAttackRate = Time.time;
-    //   //    StartCoroutine(Attacking());
-    //   //}
-    //}
-
-    private void HandleAttacks()
+    private void InitiateAttack(InputAction.CallbackContext context)
     {
-        if (combo == 0)
+        // HandleAttacks();
+        if (Time.time > attackRate + lastAttackRate)
         {
-            combo = 1;
             lastAttackRate = Time.time;
-            anim.Play("Attack");
-            StartCoroutine(Attacking());
-        }
-        else if(combo == 1 && Time.time - lastAttackRate <= comboWindow)
-        {
-            combo = 2;
-            anim.Play("Attack 2");
-            //StopAllCoroutines();
             StartCoroutine(Attacking());
         }
     }
 
-    private IEnumerator Attacking()
-    {
-        canAttack = false;
-        canMove = false;
-        rig.linearVelocity = Vector2.zero;
-        yield return wait;
-     
-        canMove = true;
-        yield return new WaitForSeconds(comboWindow);
-        canAttack = true;
-        combo = 0;
-    }
-
-    //public IEnumerator Attacking()
+    //private void HandleAttacks()
     //{
-    //   canAttack = true;
-    //    // anim.SetTrigger("Attack");
-    //    anim.Play("Attack");
-    //   //Debug.Log("Attack");   
-    //   // add directionals and animation here
-    //    rig.linearVelocity = Vector2.zero;
-    //    direction = Vector2.zero;
-    //    yield return wait;
-    //    anim.Play("Attack 2");
-    //   // anim.SetTrigger("Attack2");
-    //// rig.linearVelocity = Vector2.zero;
-    //   yield return wait;
-
-    //   canAttack = false;
+    //    if (combo == 0)
+    //    {
+    //        combo = 1;
+    //        lastAttackRate = Time.time;
+    //        anim.Play("Attack");
+    //        StartCoroutine(Attacking());
+    //    }
+    //    else if(combo == 1 && Time.time - lastAttackRate <= comboWindow)
+    //    {
+    //        combo = 2;
+    //        anim.Play("Attack 2");
+    //        //StopAllCoroutines();
+    //        StartCoroutine(Attacking());
+    ////    }
     //}
+
+    //private IEnumerator Attacking()
+    //{
+    //    canAttack = false;
+    //    canMove = false;
+    //    rig.linearVelocity = Vector2.zero;
+    //    yield return wait;
+
+
+    //    yield return new WaitForSeconds(comboWindow); 
+    //    canMove = true;
+    //    canAttack = true;
+
+    //    combo = 0;
+    //}
+
+    public IEnumerator Attacking()
+    {
+        canAttack = true;
+         anim.SetTrigger("Attack");
+       // anim.Play("Attack");
+        //Debug.Log("Attack");   
+        // add directionals and animation here
+        rig.linearVelocity = Vector2.zero;
+        direction = Vector2.zero;
+        yield return wait;
+        //anim.Play("Attack 2");
+        //// anim.SetTrigger("Attack2");
+        //// rig.linearVelocity = Vector2.zero;
+        //yield return wait;
+
+        canAttack = false;
+    }
 
     private void ThrowObject(InputAction.CallbackContext context)
     {
@@ -242,10 +244,10 @@ public class PlayerController : MonoBehaviour, IDamagable
             }
         }
 
-   if(games.Player.Attack.WasPressedThisFrame())
-        {
-            HandleAttacks();
-        }
+   //if(games.Player.Attack.WasPressedThisFrame())
+   //     {
+   //         HandleAttacks();
+   //     }
   
     }
 
