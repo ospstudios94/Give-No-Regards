@@ -1,7 +1,67 @@
 fileFormatVersion: 2
-guid: 13da93f282d53044c85b098efcefc724
+guid: bbf2c1183e88e443aabaca2fa48e354f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2176251568375224455
+    second: Knight2_Attack_0
+  - first:
+      213: -728242219765561737
+    second: Knight2_Attack_1
+  - first:
+      213: -4854537410136868413
+    second: Knight2_Attack_2
+  - first:
+      213: -5193221279116364870
+    second: Knight2_Attack_3
+  - first:
+      213: -7083970302066815825
+    second: Knight2_Attack_4
+  - first:
+      213: 4546148346261334243
+    second: Knight2_Attack_5
+  - first:
+      213: 1017400606274925357
+    second: Knight2_Attack_6
+  - first:
+      213: 7327395268911732277
+    second: Knight2_Attack_7
+  - first:
+      213: -3210825224636934543
+    second: Knight2_Attack_8
+  - first:
+      213: 4615373571690316690
+    second: Knight2_Attack_9
+  - first:
+      213: 6856749199581000863
+    second: Knight2_Attack_10
+  - first:
+      213: -763368152261600923
+    second: Knight2_Attack_11
+  - first:
+      213: 5634341361989625081
+    second: Knight2_Attack_12
+  - first:
+      213: 1789244041946904707
+    second: Knight2_Attack_13
+  - first:
+      213: -6140914878615180999
+    second: Knight2_Attack_14
+  - first:
+      213: 3905727549634808086
+    second: Knight2_Attack_15
+  - first:
+      213: -57409001295768784
+    second: Knight2_Attack_16
+  - first:
+      213: 5736424896271622556
+    second: Knight2_Attack_17
+  - first:
+      213: -5639312971950340519
+    second: Knight2_Attack_18
+  - first:
+      213: -3496420232664646236
+    second: Knight2_Attack_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,19 +166,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -136,10 +183,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 69186a7fc21f1154cb264cbf54253b82
-      internalID: 1466134139
+      spriteID: 977ab159ab66cc1e0800000000000000
+      internalID: -2176251568375224455
       vertices: []
       indices: 
       edges: []
@@ -149,19 +196,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 770
-        y: 3989
+        y: 3988
         width: 651
-        height: 877
+        height: 878
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eabef0c98cb5d514f8db5802cb8e33a3
-      internalID: 1231878473
+      spriteID: 7768e6c3f83c4e5f0800000000000000
+      internalID: -728242219765561737
       vertices: []
       indices: 
       edges: []
@@ -170,20 +217,20 @@ TextureImporter:
       name: Knight2_Attack_2
       rect:
         serializedVersion: 2
-        x: 1438
+        x: 1437
         y: 3984
         width: 1178
-        height: 882
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8f55cd4a9f8629b4388da634e6af0577
-      internalID: 611861112
+      spriteID: 3c972f722f731acb0800000000000000
+      internalID: -4854537410136868413
       vertices: []
       indices: 
       edges: []
@@ -192,20 +239,20 @@ TextureImporter:
       name: Knight2_Attack_3
       rect:
         serializedVersion: 2
-        x: 2633
-        y: 3972
+        x: 2634
+        y: 3973
         width: 1136
-        height: 891
+        height: 890
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 579ea69bb654c2241a8114c1c6b58ac5
-      internalID: -656517957
+      spriteID: ab3f442f2c8fde7b0800000000000000
+      internalID: -5193221279116364870
       vertices: []
       indices: 
       edges: []
@@ -214,20 +261,20 @@ TextureImporter:
       name: Knight2_Attack_4
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3083
+        x: 3
+        y: 3084
         width: 1117
-        height: 882
+        height: 880
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4ebff4a73cb233f4e9c76446b08cb923
-      internalID: 304366202
+      spriteID: fac04e1fa8ea0bd90800000000000000
+      internalID: -7083970302066815825
       vertices: []
       indices: 
       edges: []
@@ -236,9 +283,9 @@ TextureImporter:
       name: Knight2_Attack_5
       rect:
         serializedVersion: 2
-        x: 1126
+        x: 1127
         y: 3057
-        width: 661
+        width: 660
         height: 910
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,10 +293,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 42c46903a49a126488f5c7c91153b8a8
-      internalID: 1931903271
+      spriteID: 3e8e22b95d9271f30800000000000000
+      internalID: 4546148346261334243
       vertices: []
       indices: 
       edges: []
@@ -258,20 +305,20 @@ TextureImporter:
       name: Knight2_Attack_6
       rect:
         serializedVersion: 2
-        x: 1794
-        y: 3052
-        width: 666
-        height: 915
+        x: 1795
+        y: 3053
+        width: 663
+        height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df22feeca6e97e24ead5d06b30f1ce88
-      internalID: -522841114
+      spriteID: d23b84306788e1e00800000000000000
+      internalID: 1017400606274925357
       vertices: []
       indices: 
       edges: []
@@ -282,18 +329,18 @@ TextureImporter:
         serializedVersion: 2
         x: 2471
         y: 2912
-        width: 737
-        height: 1053
+        width: 736
+        height: 1052
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b8f1a7f5b5782c74bbbff188d6b141ce
-      internalID: -699564642
+      spriteID: 5369c54cc2320b560800000000000000
+      internalID: 7327395268911732277
       vertices: []
       indices: 
       edges: []
@@ -302,9 +349,9 @@ TextureImporter:
       name: Knight2_Attack_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1937
-        width: 906
+        x: 3
+        y: 1938
+        width: 904
         height: 965
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -312,10 +359,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f8ba730909c11d442ac7e3d9cb6ba332
-      internalID: 992078381
+      spriteID: 176d6a9487bd073d0800000000000000
+      internalID: -3210825224636934543
       vertices: []
       indices: 
       edges: []
@@ -324,20 +371,20 @@ TextureImporter:
       name: Knight2_Attack_9
       rect:
         serializedVersion: 2
-        x: 920
+        x: 919
         y: 1997
-        width: 1105
-        height: 905
+        width: 1107
+        height: 906
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d01de94ecd5f7ae4b952f608bd284e1d
-      internalID: 253813945
+      spriteID: 293c3566fc91d0040800000000000000
+      internalID: 4615373571690316690
       vertices: []
       indices: 
       edges: []
@@ -348,18 +395,18 @@ TextureImporter:
         serializedVersion: 2
         x: 2034
         y: 1951
-        width: 765
-        height: 949
+        width: 764
+        height: 948
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e06c841b32d40e64abd6ceb170b52518
-      internalID: 41255464
+      spriteID: f9438f28111182f50800000000000000
+      internalID: 6856749199581000863
       vertices: []
       indices: 
       edges: []
@@ -371,17 +418,17 @@ TextureImporter:
         x: 2802
         y: 1954
         width: 591
-        height: 941
+        height: 940
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fe620908218d9bd408bfe75ca286e573
-      internalID: -746517133
+      spriteID: 569d993c5b8f765f0800000000000000
+      internalID: -763368152261600923
       vertices: []
       indices: 
       edges: []
@@ -391,8 +438,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 994
-        width: 1003
+        y: 993
+        width: 1004
         height: 934
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -400,10 +447,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fb8d46548b8db4a46b0c4edf27a137cb
-      internalID: -738418409
+      spriteID: 9f4aea0ed93313e40800000000000000
+      internalID: 5634341361989625081
       vertices: []
       indices: 
       edges: []
@@ -412,20 +459,20 @@ TextureImporter:
       name: Knight2_Attack_13
       rect:
         serializedVersion: 2
-        x: 1017
-        y: 1013
-        width: 1012
-        height: 912
+        x: 1018
+        y: 1012
+        width: 1011
+        height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 77fc32a3a04d5654f8715264d49dd2cb
-      internalID: 8015063
+      spriteID: 388bab0f9fba4d810800000000000000
+      internalID: 1789244041946904707
       vertices: []
       indices: 
       edges: []
@@ -434,8 +481,8 @@ TextureImporter:
       name: Knight2_Attack_14
       rect:
         serializedVersion: 2
-        x: 2044
-        y: 1001
+        x: 2045
+        y: 1000
         width: 941
         height: 927
       alignment: 0
@@ -444,10 +491,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2c9123171a8219d40ad113ad4c52d2ae
-      internalID: 1065145303
+      spriteID: 9392b30347617caa0800000000000000
+      internalID: -6140914878615180999
       vertices: []
       indices: 
       edges: []
@@ -457,19 +504,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3001
-        y: 972
-        width: 763
-        height: 951
+        y: 973
+        width: 764
+        height: 948
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 51ee1cfb2f11fbd4ebf6530734c85656
-      internalID: -1906861274
+      spriteID: 6198071538ee33630800000000000000
+      internalID: 3905727549634808086
       vertices: []
       indices: 
       edges: []
@@ -479,19 +526,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 12
-        width: 592
-        height: 941
+        y: 13
+        width: 591
+        height: 940
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 31baa1c2dc5b22148a6bd772b9ceb0b1
-      internalID: -666843767
+      spriteID: 0331bd641da043ff0800000000000000
+      internalID: -57409001295768784
       vertices: []
       indices: 
       edges: []
@@ -502,18 +549,18 @@ TextureImporter:
         serializedVersion: 2
         x: 611
         y: 21
-        width: 1003
-        height: 935
+        width: 1004
+        height: 934
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c5da5d125013d0e4498d91eeafa55f17
-      internalID: -1999560969
+      spriteID: c912afedc00eb9f40800000000000000
+      internalID: 5736424896271622556
       vertices: []
       indices: 
       edges: []
@@ -523,8 +570,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1630
-        y: 40
-        width: 1012
+        y: 41
+        width: 1011
         height: 913
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -532,10 +579,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 406f5c66bc27256489b19bcc3cfdcbbc
-      internalID: 1275824556
+      spriteID: 956c5a9fab22db1b0800000000000000
+      internalID: -5639312971950340519
       vertices: []
       indices: 
       edges: []
@@ -554,10 +601,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 80707292ca484224b9d5cb8e72a5d312
-      internalID: 1787904260
+      spriteID: 4adf88eb2583a7fc0800000000000000
+      internalID: -3496420232664646236
       vertices: []
       indices: 
       edges: []
@@ -566,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2badbfc42df475d488df618904bdb02b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -576,26 +623,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Knight2_Attack_0: 1466134139
-      Knight2_Attack_1: 1231878473
-      Knight2_Attack_10: 41255464
-      Knight2_Attack_11: -746517133
-      Knight2_Attack_12: -738418409
-      Knight2_Attack_13: 8015063
-      Knight2_Attack_14: 1065145303
-      Knight2_Attack_15: -1906861274
-      Knight2_Attack_16: -666843767
-      Knight2_Attack_17: -1999560969
-      Knight2_Attack_18: 1275824556
-      Knight2_Attack_19: 1787904260
-      Knight2_Attack_2: 611861112
-      Knight2_Attack_3: -656517957
-      Knight2_Attack_4: 304366202
-      Knight2_Attack_5: 1931903271
-      Knight2_Attack_6: -522841114
-      Knight2_Attack_7: -699564642
-      Knight2_Attack_8: 992078381
-      Knight2_Attack_9: 253813945
+      Knight2_Attack_0: -2176251568375224455
+      Knight2_Attack_1: -728242219765561737
+      Knight2_Attack_10: 6856749199581000863
+      Knight2_Attack_11: -763368152261600923
+      Knight2_Attack_12: 5634341361989625081
+      Knight2_Attack_13: 1789244041946904707
+      Knight2_Attack_14: -6140914878615180999
+      Knight2_Attack_15: 3905727549634808086
+      Knight2_Attack_16: -57409001295768784
+      Knight2_Attack_17: 5736424896271622556
+      Knight2_Attack_18: -5639312971950340519
+      Knight2_Attack_19: -3496420232664646236
+      Knight2_Attack_2: -4854537410136868413
+      Knight2_Attack_3: -5193221279116364870
+      Knight2_Attack_4: -7083970302066815825
+      Knight2_Attack_5: 4546148346261334243
+      Knight2_Attack_6: 1017400606274925357
+      Knight2_Attack_7: 7327395268911732277
+      Knight2_Attack_8: -3210825224636934543
+      Knight2_Attack_9: 4615373571690316690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

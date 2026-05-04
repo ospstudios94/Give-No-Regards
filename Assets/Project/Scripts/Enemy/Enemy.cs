@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour, IDamagable
     public int health = 100;
     public int maxHealth;
     public int Health { get => health; set => health = value; }
-
+// get attacks and throw script here
 private float knockbackTimer;
 public float knockbackTotalTime = 0.2f;
 Rigidbody2D rig;

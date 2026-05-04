@@ -55,15 +55,21 @@ Assets/
  Project/Scripts/Enemy/
   Enemy.cs
   EnemyHealth.cs
+  EnemyMovement.cs
+  EnemySpawner.cs
+  ImposterScript.cs
+  NPC_Script.cs
  Project/Scripts/Extra/
   RestorePressureItem.cs
   RestoreUseitem.cs
  Project/Scripts/Gameplay/
+  AttackScript.cs
   FollowCamera.cs
   IDamagable.cs
   IDestructible.cs
   Inventory.cs
   PlayerProjectile.cs
+  PlayerWeapon.cs
  Project/Scripts/Managers/
   AudioManager.cs
   DialogueManager.cs

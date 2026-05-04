@@ -13,6 +13,7 @@ TagManager:
   - Imposter
   - Boss
   - ImposterWeapon
+  - EnemyUnit
   layers:
   - Default
   - TransparentFX
@@ -31,7 +32,7 @@ TagManager:
   - Trigger
   - Items
   - Fake
-  - 
+  - FakeWeapon
   - 
   - 
   - 

@@ -5,7 +5,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private Transform m_Target;
     [SerializeField] float chaseRange = 3;
     [SerializeField] float attackRange = 1.5f;
-    [SerializeField] float _speed = 2f;
+    [SerializeField] float _speed;
 
     [SerializeField] float _patrolRange = 5f;
 
@@ -21,7 +21,7 @@ public class EnemyMovement : MonoBehaviour
 
 
     [SerializeField]
-    private float defaultSpeed = 5f;
+    private float defaultSpeed = 2f;
 
 
 
@@ -34,6 +34,7 @@ public class EnemyMovement : MonoBehaviour
         _anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
         m_Target = FindAnyObjectByType<PlayerController>().transform;
+        defaultSpeed = _speed;
     }
 
     // Update is called once per frame

@@ -1,51 +1,43 @@
 using UnityEngine;
 
-public class PlayerProjectile : MonoBehaviour
+public class AttackScript : MonoBehaviour
 {
-    public int damageOutput = 5;
+    /// <summary>
+    /// This is for the Imposter only
+    /// </summary>
+     public int damageOutput = 5;
     public float knockbackForce = 50f;
-      [HideInInspector] public PlayerController shooterPressure;
 
-    void Awake()
-    {
-        shooterPressure = FindAnyObjectByType<PlayerController>();
-    }
-    void Start()
-    {
 
-        Destroy(gameObject, 1.5f);
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D other)
     {
-       if(other.CompareTag("Enemy") || other.CompareTag("Imposter"))
+       if(other.CompareTag("Player") || other.CompareTag("NPC") || other.CompareTag("Enemy"))
         {
             Vector2 knockbackDirection = 
             // other.GetComponent<Rigidbody2D>().linearVelocity.normalized; // if it is moving
             (other.transform.position - transform.position).normalized;
-             int finalDamage = damageOutput;
-            if (shooterPressure != null)
-            {
-                // Multiply damage based on the system we built (higher damage at low pressure)
-                finalDamage = Mathf.RoundToInt(damageOutput * shooterPressure.GetDamageMultiplier());
-            }
+            
             IDamagable damageable = other.GetComponent<IDamagable>();
             if(damageable != null)
             {
-                damageable.Damage(finalDamage);
-                Destroy(gameObject);
+                damageable.Damage(damageOutput);
+               
             }
             Enemy newEnemy = other.GetComponent<Enemy>();
             if(newEnemy != null)
             {
                 newEnemy.ApplyKnockback(knockbackDirection, knockbackForce );
             }
-             ImposterScript impost = other.GetComponent<ImposterScript>();
+            NPC_Script nonPlayer = other.GetComponent<NPC_Script>();
 
-            if(impost != null)
+            if(nonPlayer != null)
             {
-                impost.ApplyKnockback(knockbackDirection, knockbackForce);
+                nonPlayer.ApplyKnockback(knockbackDirection, knockbackForce);
+            }
+            PlayerController player = other.GetComponent<PlayerController>();
+            if(player != null)
+            {
+                player.ApplyKnockback(knockbackDirection, knockbackForce);
             }
 
         //     Rigidbody2D rb = other.GetComponent<Rigidbody2D>();

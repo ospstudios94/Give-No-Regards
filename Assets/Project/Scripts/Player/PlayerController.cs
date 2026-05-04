@@ -4,7 +4,11 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour, IDamagable
+public class PlayerController : MonoBehaviour, IDamagable 
+// make another one for attack, dodge, and throw (for Player/NPC) IAttack
+// make an interface for Defensive Enemies (attack, defend, dodge) IDefend
+// make an in
+
 {
     Game_Inputs games;
     Rigidbody2D rig;
@@ -43,9 +47,12 @@ public class PlayerController : MonoBehaviour, IDamagable
     [SerializeField]private float attackRate = 1f;
     [SerializeField]GameObject[] hitColliders; // for activating/Deactivating
 
+    [Header("Player Health")]
     public int hp = 100;
     public int maxHp = 100;
     public int Health { get => hp; set => hp = value; }
+
+    [Header("Knockback Settings")]
     private float knockbackTimer;
     public float knockbackTotalTime = 0.2f;
 
@@ -59,20 +66,22 @@ public class PlayerController : MonoBehaviour, IDamagable
     public float healthDrainRate = 2f; // Damage per second when at 0
     private float damageTickTimer = 0f; // when the timer starts for health drain
     private float heartbeatTimer;
-
+    
+[   Header("Restoring")]
     private bool isRestoring;
 
     private int totalCount = 0;
     public int maxUse =3;
     Animator anim;
 
-    int combo = 0;
-    public float comboWindow = .2f;
+    // int combo = 0;
+    // public float comboWindow = .2f;
     void Awake()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         games = new();
+        // hitColliders = GetComponentsInChildren<GameObject>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -161,16 +170,12 @@ public class PlayerController : MonoBehaviour, IDamagable
         canAttack = true;
          anim.SetTrigger("Attack");
        // anim.Play("Attack");
-        //Debug.Log("Attack");   
         // add directionals and animation here
         rig.linearVelocity = Vector2.zero;
         direction = Vector2.zero;
         yield return wait;
         //anim.Play("Attack 2");
         //// anim.SetTrigger("Attack2");
-        //// rig.linearVelocity = Vector2.zero;
-        //yield return wait;
-
         canAttack = false;
     }
 
@@ -180,25 +185,24 @@ public class PlayerController : MonoBehaviour, IDamagable
        {
             lastThrowTime = Time.time;
             anim.SetTrigger("Throw");
-
             //StartCoroutine(ThrowObject());
        }
     }
 
-    private IEnumerator ThrowObject()
-    {
-        canThrow = true;
-        rig.linearVelocity = Vector2.zero;
-        // Debug.Log("Throwing");   
-        // rig.linearVelocity = Vector2.zero;
-        Throwing();
+    // private IEnumerator ThrowObject()
+    // {
+    //     canThrow = true;
+    //     rig.linearVelocity = Vector2.zero;
+    //     // Debug.Log("Throwing");   
+    //     // rig.linearVelocity = Vector2.zero;
+    //     Throwing();
 
-        // add directionals and animation here
+    //     // add directionals and animation here
 
-        yield return wait;
+    //     yield return wait;
 
-        canThrow = false;
-    }
+    //     canThrow = false;
+    // }
 
     public void Throwing()
     {
@@ -215,10 +219,10 @@ public class PlayerController : MonoBehaviour, IDamagable
     // Update is called once per frame
     void Update()
     {
-        if(Keyboard.current.gKey.wasPressedThisFrame)
-        {
-            Damage(2);
-        }
+        // if(Keyboard.current.gKey.wasPressedThisFrame)
+        // {
+        //     Damage(2);
+        // }
           float pressureRatio = Mathf.Clamp(pressure / maxPressure, 0.2f, 1f);
         if(canRun)
         {
@@ -406,13 +410,30 @@ public class PlayerController : MonoBehaviour, IDamagable
     }
 
    
-    void OnDestroy()
+  
+    public void EnableCollider()// for attack in the animator
     {
-       
-        games.Dispose();
-    }
-    public void EnableCollider(GameObject hitObject)// for attack in the animator
-    {
+        // F =0, B = 1, L = 2, R = 3
+        
+        // for (int i = 0; i < hitColliders.Length; i++)
+        
+            if(anim.GetFloat("lastY") == 1)
+            {
+                hitColliders[1].gameObject.SetActive(true);
+            }
+            if(anim.GetFloat("lastY") == -1)
+            {
+             hitColliders[0].gameObject.SetActive(true);
+            }
+            if(anim.GetFloat("lastX") == 1)
+            {
+             hitColliders[3].gameObject.SetActive(true);
+            }
+            if(anim.GetFloat("lastX") == -1)
+            {
+             hitColliders[2].gameObject.SetActive(true);
+            }
+        
         ///
     }
 
@@ -477,12 +498,20 @@ public class PlayerController : MonoBehaviour, IDamagable
    
     public void CanMove()
     {
+        foreach (GameObject hit in hitColliders)
+        {
+            hit.SetActive(false);
+        }
         canMove = true;
     }
-    public float GetDamageMultiplier()
+    public float GetDamageMultiplier() /// for weapons to call
     {
         // Example: Base is 1.0. If pressure is < 20, return 2.0 (Double Damage).
         // Otherwise, return 1.0 (Normal Damage).
         return (pressure < 20f) ? 2.0f : 1.0f;
+    }
+      void OnDestroy()
+    {
+        games.Dispose();
     }
 }
