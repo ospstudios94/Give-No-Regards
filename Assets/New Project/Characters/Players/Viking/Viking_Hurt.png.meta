@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: d9dfc3faec258e441a939fcc38951b17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5454993266688706329
+    second: Viking_Hurt_0
+  - first:
+      213: 1045788155599526441
+    second: Viking_Hurt_1
+  - first:
+      213: 2266371551166909022
+    second: Viking_Hurt_2
+  - first:
+      213: -6426822419294115957
+    second: Viking_Hurt_3
+  - first:
+      213: -7878668053716031553
+    second: Viking_Hurt_4
+  - first:
+      213: 5545077500245264304
+    second: Viking_Hurt_5
+  - first:
+      213: -4492535041139380485
+    second: Viking_Hurt_6
+  - first:
+      213: -8062086910848204163
+    second: Viking_Hurt_7
+  - first:
+      213: 5250064649074206161
+    second: Viking_Hurt_8
+  - first:
+      213: -4812187934954180774
+    second: Viking_Hurt_9
+  - first:
+      213: 8600186690695314916
+    second: Viking_Hurt_10
+  - first:
+      213: 5170203831950475327
+    second: Viking_Hurt_11
+  - first:
+      213: -3713154199699503754
+    second: Viking_Hurt_12
+  - first:
+      213: -5596724157888486881
+    second: Viking_Hurt_13
+  - first:
+      213: -5884049941748275420
+    second: Viking_Hurt_14
+  - first:
+      213: -4519652770068084268
+    second: Viking_Hurt_15
+  - first:
+      213: 4576325369107967634
+    second: Viking_Hurt_16
+  - first:
+      213: 8014399684346932028
+    second: Viking_Hurt_17
+  - first:
+      213: 7001995504725594136
+    second: Viking_Hurt_18
+  - first:
+      213: 7928008925741626254
+    second: Viking_Hurt_19
+  - first:
+      213: -1516852575246901632
+    second: Viking_Hurt_20
+  - first:
+      213: -2614322123288427842
+    second: Viking_Hurt_21
+  - first:
+      213: 3233327551008529740
+    second: Viking_Hurt_22
+  - first:
+      213: -3852558987841097369
+    second: Viking_Hurt_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viking_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2231
+        width: 530
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917c029697704bb40800000000000000
+      internalID: 5454993266688706329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2234
+        width: 530
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a12d469c2638e00800000000000000
+      internalID: 1045788155599526441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2242
+        width: 543
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aca540be4c37f10800000000000000
+      internalID: 2266371551166909022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2238
+        width: 511
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8725777f075fc6a0800000000000000
+      internalID: -6426822419294115957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2241
+        width: 511
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7a90be52959a290800000000000000
+      internalID: -7878668053716031553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1725
+        width: 507
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7412e7b9214fc40800000000000000
+      internalID: 5545077500245264304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1684
+        width: 398
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe64ebbe2f47a1c0800000000000000
+      internalID: -4492535041139380485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1687
+        width: 398
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72019a5ba6bd1090800000000000000
+      internalID: -8062086910848204163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1701
+        width: 397
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d567e77bf9fbd840800000000000000
+      internalID: 5250064649074206161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_9
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1690
+        width: 398
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa2a8b19ca73db0800000000000000
+      internalID: -4812187934954180774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_10
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 1693
+        width: 398
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edbfecba300a5770800000000000000
+      internalID: 8600186690695314916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1151
+        width: 397
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3085c30ef040c740800000000000000
+      internalID: 5170203831950475327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1153
+        width: 379
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67549a2bde9387cc0800000000000000
+      internalID: -3713154199699503754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1130
+        width: 460
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12a537f7017452b0800000000000000
+      internalID: -5596724157888486881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_14
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1124
+        width: 483
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427af65c0c7a75ea0800000000000000
+      internalID: -5884049941748275420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_15
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1162
+        width: 386
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d94bf370c7f641c0800000000000000
+      internalID: -4519652770068084268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_16
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1145
+        width: 434
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ee9424daf528f30800000000000000
+      internalID: 4576325369107967634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 583
+        width: 468
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b60810d0ed83f60800000000000000
+      internalID: 8014399684346932028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 581
+        width: 356
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8101d0a30d51c2160800000000000000
+      internalID: 7001995504725594136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_19
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 581
+        width: 393
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b4f21d12f50e60800000000000000
+      internalID: 7928008925741626254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_20
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 567
+        width: 401
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e95c39e9e03fae0800000000000000
+      internalID: -1516852575246901632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_21
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 557
+        width: 356
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2c2f051ef08bbd0800000000000000
+      internalID: -2614322123288427842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_22
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 581
+        width: 393
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dd858d6461fdc20800000000000000
+      internalID: 3233327551008529740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Hurt_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 13
+        width: 401
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7613e752306f88ac0800000000000000
+      internalID: -3852558987841097369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Viking_Hurt_0: 5454993266688706329
+      Viking_Hurt_1: 1045788155599526441
+      Viking_Hurt_10: 8600186690695314916
+      Viking_Hurt_11: 5170203831950475327
+      Viking_Hurt_12: -3713154199699503754
+      Viking_Hurt_13: -5596724157888486881
+      Viking_Hurt_14: -5884049941748275420
+      Viking_Hurt_15: -4519652770068084268
+      Viking_Hurt_16: 4576325369107967634
+      Viking_Hurt_17: 8014399684346932028
+      Viking_Hurt_18: 7001995504725594136
+      Viking_Hurt_19: 7928008925741626254
+      Viking_Hurt_2: 2266371551166909022
+      Viking_Hurt_20: -1516852575246901632
+      Viking_Hurt_21: -2614322123288427842
+      Viking_Hurt_22: 3233327551008529740
+      Viking_Hurt_23: -3852558987841097369
+      Viking_Hurt_3: -6426822419294115957
+      Viking_Hurt_4: -7878668053716031553
+      Viking_Hurt_5: 5545077500245264304
+      Viking_Hurt_6: -4492535041139380485
+      Viking_Hurt_7: -8062086910848204163
+      Viking_Hurt_8: 5250064649074206161
+      Viking_Hurt_9: -4812187934954180774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

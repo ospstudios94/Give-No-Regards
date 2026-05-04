@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e8f161a75876965468c92cdbfd3ad95b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3560799126909599731
+    second: Bee_Fly_0
+  - first:
+      213: 7831616216331297835
+    second: Bee_Fly_1
+  - first:
+      213: -4936822960198557480
+    second: Bee_Fly_2
+  - first:
+      213: -4484926305333476821
+    second: Bee_Fly_3
+  - first:
+      213: -8154660327573040559
+    second: Bee_Fly_4
+  - first:
+      213: -748533444960782703
+    second: Bee_Fly_5
+  - first:
+      213: 2004267966375594120
+    second: Bee_Fly_6
+  - first:
+      213: -2215961636245654698
+    second: Bee_Fly_7
+  - first:
+      213: 2020440825168618325
+    second: Bee_Fly_8
+  - first:
+      213: -5533118685202106216
+    second: Bee_Fly_9
+  - first:
+      213: -9096566951088515360
+    second: Bee_Fly_10
+  - first:
+      213: -3603046824369627690
+    second: Bee_Fly_11
+  - first:
+      213: -2122591659466917691
+    second: Bee_Fly_12
+  - first:
+      213: 7481160277312588379
+    second: Bee_Fly_13
+  - first:
+      213: 5676140357470540458
+    second: Bee_Fly_14
+  - first:
+      213: -8886404236544483881
+    second: Bee_Fly_15
+  - first:
+      213: -993919148219968109
+    second: Bee_Fly_16
+  - first:
+      213: 2166904398766074002
+    second: Bee_Fly_17
+  - first:
+      213: -1834284064057801050
+    second: Bee_Fly_18
+  - first:
+      213: -8875677728652449169
+    second: Bee_Fly_19
+  - first:
+      213: 1990253298704357352
+    second: Bee_Fly_20
+  - first:
+      213: 2808292952356162841
+    second: Bee_Fly_21
+  - first:
+      213: 4003359043216604854
+    second: Bee_Fly_22
+  - first:
+      213: -8147338101966352402
+    second: Bee_Fly_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bee_Fly_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2828
+        width: 620
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffb7f3a0ff7a6130800000000000000
+      internalID: 3560799126909599731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2820
+        width: 620
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24ad9f747d7fac60800000000000000
+      internalID: 7831616216331297835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2828
+        width: 620
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d06f529ca1ec7bb0800000000000000
+      internalID: -4936822960198557480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_3
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 2823
+        width: 620
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b220bc6994752c1c0800000000000000
+      internalID: -4484926305333476821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_4
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2828
+        width: 620
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152d90723a3d4de80800000000000000
+      internalID: -8154660327573040559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2143
+        width: 620
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196fc963cccac95f0800000000000000
+      internalID: -748533444960782703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_6
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2118
+        width: 624
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888038aa81790db10800000000000000
+      internalID: 2004267966375594120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_7
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2116
+        width: 625
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6533fabe1a25f31e0800000000000000
+      internalID: -2215961636245654698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_8
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2120
+        width: 625
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5536fd9c93c0a0c10800000000000000
+      internalID: 2020440825168618325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_9
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2108
+        width: 625
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898b37c1fd96633b0800000000000000
+      internalID: -5533118685202106216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1409
+        width: 625
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e69fccbd8082c180800000000000000
+      internalID: -9096566951088515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_11
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1405
+        width: 625
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd5954c0086ffdc0800000000000000
+      internalID: -3603046824369627690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_12
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1425
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c87446b12a0b82e0800000000000000
+      internalID: -2122591659466917691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_13
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1429
+        width: 517
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5acaf4a2ab62d760800000000000000
+      internalID: 7481160277312588379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_14
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 1424
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa25a46e493b5ce40800000000000000
+      internalID: 5676140357470540458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_15
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1427
+        width: 517
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd5d36dd662da480800000000000000
+      internalID: -8886404236544483881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 721
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395d3eafcc3e432f0800000000000000
+      internalID: -993919148219968109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_17
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 726
+        width: 517
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298eea6e114621e10800000000000000
+      internalID: 2166904398766074002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 720
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6cca8bc505b86e0800000000000000
+      internalID: -1834284064057801050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_19
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 710
+        width: 517
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a23d2912243d480800000000000000
+      internalID: -8875677728652449169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_20
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 720
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7925294dcce9b10800000000000000
+      internalID: 1990253298704357352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_21
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 717
+        width: 517
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d0c6aaf8f09f620800000000000000
+      internalID: 2808292952356162841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 26
+        width: 517
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bef54fc6d9ce8730800000000000000
+      internalID: 4003359043216604854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Fly_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 16
+        width: 517
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef4a47a927deee80800000000000000
+      internalID: -8147338101966352402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bee_Fly_0: 3560799126909599731
+      Bee_Fly_1: 7831616216331297835
+      Bee_Fly_10: -9096566951088515360
+      Bee_Fly_11: -3603046824369627690
+      Bee_Fly_12: -2122591659466917691
+      Bee_Fly_13: 7481160277312588379
+      Bee_Fly_14: 5676140357470540458
+      Bee_Fly_15: -8886404236544483881
+      Bee_Fly_16: -993919148219968109
+      Bee_Fly_17: 2166904398766074002
+      Bee_Fly_18: -1834284064057801050
+      Bee_Fly_19: -8875677728652449169
+      Bee_Fly_2: -4936822960198557480
+      Bee_Fly_20: 1990253298704357352
+      Bee_Fly_21: 2808292952356162841
+      Bee_Fly_22: 4003359043216604854
+      Bee_Fly_23: -8147338101966352402
+      Bee_Fly_3: -4484926305333476821
+      Bee_Fly_4: -8154660327573040559
+      Bee_Fly_5: -748533444960782703
+      Bee_Fly_6: 2004267966375594120
+      Bee_Fly_7: -2215961636245654698
+      Bee_Fly_8: 2020440825168618325
+      Bee_Fly_9: -5533118685202106216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

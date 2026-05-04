@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 40346b4c64c3f6644a0acc62ce6505ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5951420561267291781
+    second: Viking_Attack_0
+  - first:
+      213: 8794031850396504718
+    second: Viking_Attack_1
+  - first:
+      213: 276008222766642476
+    second: Viking_Attack_2
+  - first:
+      213: -4570282538685442259
+    second: Viking_Attack_3
+  - first:
+      213: 7018669860087843948
+    second: Viking_Attack_4
+  - first:
+      213: -7196936016360258583
+    second: Viking_Attack_5
+  - first:
+      213: 4219202065846673127
+    second: Viking_Attack_6
+  - first:
+      213: -8081881129629878353
+    second: Viking_Attack_7
+  - first:
+      213: 9193355612981738286
+    second: Viking_Attack_8
+  - first:
+      213: 131177550558939814
+    second: Viking_Attack_9
+  - first:
+      213: -261658771578298224
+    second: Viking_Attack_10
+  - first:
+      213: -8940966001940848751
+    second: Viking_Attack_11
+  - first:
+      213: 8333352202239111807
+    second: Viking_Attack_12
+  - first:
+      213: 6097128564731327670
+    second: Viking_Attack_13
+  - first:
+      213: -2438996185669761372
+    second: Viking_Attack_14
+  - first:
+      213: -8963858321334920485
+    second: Viking_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viking_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1747
+        width: 410
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7905b0188e486da0800000000000000
+      internalID: -5951420561267291781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1752
+        width: 412
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82da5a006daa0a70800000000000000
+      internalID: 8794031850396504718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1755
+        width: 674
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25b719240494d300800000000000000
+      internalID: 276008222766642476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1754
+        width: 691
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27db76de381390c0800000000000000
+      internalID: -4570282538685442259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1225
+        width: 396
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cc64e1d03576160800000000000000
+      internalID: 7018669860087843948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1181
+        width: 401
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3c1a9f2d85f1c90800000000000000
+      internalID: -7196936016360258583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1154
+        width: 570
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee9262bced9d8a30800000000000000
+      internalID: 4219202065846673127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1175
+        width: 587
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa77a77aee367df80800000000000000
+      internalID: -8081881129629878353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 590
+        width: 367
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bbe95b83c559f70800000000000000
+      internalID: 9193355612981738286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 608
+        width: 525
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa4297894902d100800000000000000
+      internalID: 131177550558939814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 609
+        width: 654
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090e5bbcbb66e5cf0800000000000000
+      internalID: -261658771578298224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 606
+        width: 664
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f9871eace4be380800000000000000
+      internalID: -8940966001940848751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 367
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f727eaa0da306a370800000000000000
+      internalID: 8333352202239111807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 49
+        width: 525
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4b2ba202a5d9450800000000000000
+      internalID: 6097128564731327670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 32
+        width: 654
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a60f9834e1f62ed0800000000000000
+      internalID: -2438996185669761372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 56
+        width: 664
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda17eb695af99380800000000000000
+      internalID: -8963858321334920485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Viking_Attack_0: -5951420561267291781
+      Viking_Attack_1: 8794031850396504718
+      Viking_Attack_10: -261658771578298224
+      Viking_Attack_11: -8940966001940848751
+      Viking_Attack_12: 8333352202239111807
+      Viking_Attack_13: 6097128564731327670
+      Viking_Attack_14: -2438996185669761372
+      Viking_Attack_15: -8963858321334920485
+      Viking_Attack_2: 276008222766642476
+      Viking_Attack_3: -4570282538685442259
+      Viking_Attack_4: 7018669860087843948
+      Viking_Attack_5: -7196936016360258583
+      Viking_Attack_6: 4219202065846673127
+      Viking_Attack_7: -8081881129629878353
+      Viking_Attack_8: 9193355612981738286
+      Viking_Attack_9: 131177550558939814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

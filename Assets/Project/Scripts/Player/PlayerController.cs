@@ -64,11 +64,14 @@ public class PlayerController : MonoBehaviour, IDamagable
 
     private int totalCount = 0;
     public int maxUse =3;
-    
+    Animator anim;
+
+    int combo = 0;
+    public float comboWindow = .2f;
     void Awake()
     {
         rig = GetComponent<Rigidbody2D>();
-    
+        anim = GetComponent<Animator>();
         games = new();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -95,7 +98,8 @@ public class PlayerController : MonoBehaviour, IDamagable
         games.Player.Sprint.canceled += ctx => canRun = false;
 
         games.Player.Throw.performed += ThrowObject;
-        games.Player.Attack.performed += InitiateAttack;
+      //
+      //games.Player.Attack.performed += InitiateAttack;
 
         games.Player.Interact.performed += Interaction;
         games.Player.Rest.performed += ctx => isRestoring = true;
@@ -109,54 +113,101 @@ public class PlayerController : MonoBehaviour, IDamagable
         throw new NotImplementedException();
     }
 
-    private void InitiateAttack(InputAction.CallbackContext context)
+    //private void InitiateAttack(InputAction.CallbackContext context)
+    //{
+    //    HandleAttacks();
+    //   // if(Time.time > attackRate + lastAttackRate)
+    //   //{
+    //   //     lastAttackRate = Time.time;
+    //   //    StartCoroutine(Attacking());
+    //   //}
+    //}
+
+    private void HandleAttacks()
     {
-        if(Time.time > attackRate + lastAttackRate)
-       {
+        if (combo == 0)
+        {
+            combo = 1;
             lastAttackRate = Time.time;
+            anim.Play("Attack");
             StartCoroutine(Attacking());
-       }
+        }
+        else if(combo == 1 && Time.time - lastAttackRate <= comboWindow)
+        {
+            combo = 2;
+            anim.Play("Attack 2");
+            //StopAllCoroutines();
+            StartCoroutine(Attacking());
+        }
     }
 
-    public IEnumerator Attacking()
+    private IEnumerator Attacking()
     {
-       canAttack = true;
-       Debug.Log("Attack");   
-       // add directionals and animation here
-rig.linearVelocity = Vector2.zero;
-       yield return wait;
-    
-       canAttack = false;
+        canAttack = false;
+        canMove = false;
+        rig.linearVelocity = Vector2.zero;
+        yield return wait;
+     
+        canMove = true;
+        yield return new WaitForSeconds(comboWindow);
+        canAttack = true;
+        combo = 0;
     }
+
+    //public IEnumerator Attacking()
+    //{
+    //   canAttack = true;
+    //    // anim.SetTrigger("Attack");
+    //    anim.Play("Attack");
+    //   //Debug.Log("Attack");   
+    //   // add directionals and animation here
+    //    rig.linearVelocity = Vector2.zero;
+    //    direction = Vector2.zero;
+    //    yield return wait;
+    //    anim.Play("Attack 2");
+    //   // anim.SetTrigger("Attack2");
+    //// rig.linearVelocity = Vector2.zero;
+    //   yield return wait;
+
+    //   canAttack = false;
+    //}
 
     private void ThrowObject(InputAction.CallbackContext context)
     {
         if(Time.time > throwRate + lastThrowTime)
        {
             lastThrowTime = Time.time;
-            StartCoroutine(Throwing());
+            anim.SetTrigger("Throw");
+
+            //StartCoroutine(ThrowObject());
        }
     }
 
-    private IEnumerator Throwing()
+    private IEnumerator ThrowObject()
     {
-        canThrow = true; 
-       rig.linearVelocity = Vector2.zero;
-       Debug.Log("Throwing");   
-       // rig.linearVelocity = Vector2.zero;
-        GameObject bulletObj = Instantiate(throwItem, throwPoint.position, Quaternion.identity);
-         PlayerProjectile pScript = bulletObj.GetComponent<PlayerProjectile>();
-        if(pScript != null) {
-        pScript.shooterPressure = this; // 'this' refers to this Player script
+        canThrow = true;
+        rig.linearVelocity = Vector2.zero;
+        // Debug.Log("Throwing");   
+        // rig.linearVelocity = Vector2.zero;
+        Throwing();
+
+        // add directionals and animation here
+
+        yield return wait;
+
+        canThrow = false;
     }
+
+    public void Throwing()
+    {
+        GameObject bulletObj = Instantiate(throwItem, throwPoint.position, Quaternion.identity);
+        PlayerProjectile pScript = bulletObj.GetComponent<PlayerProjectile>();
+        if (pScript != null)
+        {
+            pScript.shooterPressure = this; // 'this' refers to this Player script
+        }
         Rigidbody2D newRig = bulletObj.GetComponent<Rigidbody2D>();
         newRig.AddForce(lastFacingDirection * throwForce, ForceMode2D.Impulse);
-
-       // add directionals and animation here
-      
-       yield return wait;
-    
-       canThrow = false;
     }
 
     // Update is called once per frame
@@ -172,7 +223,8 @@ rig.linearVelocity = Vector2.zero;
             _speed = _initialSpeed * runMultiplier * pressureRatio;
         }
         else
-        {
+        {   
+
             _speed = _initialSpeed * pressureRatio ;
         }
 
@@ -183,10 +235,16 @@ rig.linearVelocity = Vector2.zero;
             
             if(totalCount == maxUse)
             {
-                Debug.Log(games.Player.Rest.ToString() + isRestoring.ToString() + totalCount.ToString() + maxUse.ToString() );
+
+               // Debug.Log(games.Player.Rest.ToString() + isRestoring.ToString() + totalCount.ToString() + maxUse.ToString() );
 
                 games.Player.Rest.Disable();
             }
+        }
+
+   if(games.Player.Attack.WasPressedThisFrame())
+        {
+            HandleAttacks();
         }
   
     }
@@ -205,6 +263,15 @@ rig.linearVelocity = Vector2.zero;
                 lastFacingDirection = new Vector2(0, Mathf.Sign(direction.y));
         }
 
+        anim.SetFloat("moveX", rig.linearVelocity.x);
+        anim.SetFloat("moveY", rig.linearVelocity.y);
+        float hInput = direction.x;
+        float yInput = direction.y;
+        if (yInput != 0 || hInput != 0)
+        {
+            anim.SetFloat("lastY", direction.y);
+            anim.SetFloat("lastX", direction.x);
+        }
 
         rig.linearVelocity = direction * _speed * Time.fixedDeltaTime;
 
@@ -336,14 +403,7 @@ rig.linearVelocity = Vector2.zero;
         transform.position = viewPos;
     }
 
-    public void StopMovement()
-    {
-        canMove = false;
-    }
-    public void EnableMovement()
-    {
-        canMove = true;
-    }
+   
     void OnDestroy()
     {
        
@@ -405,7 +465,18 @@ rig.linearVelocity = Vector2.zero;
        hp += amount;
        hp = Mathf.Clamp(hp , 0, maxHp);   
     }
+
+    public void StopMoving()
+    {
+
+        canMove = false;
+       
+    }
    
+    public void CanMove()
+    {
+        canMove = true;
+    }
     public float GetDamageMultiplier()
     {
         // Example: Base is 1.0. If pressure is < 20, return 2.0 (Double Damage).

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: a9f0c2a653085f64bb409a8a223d99b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7976343775118471174
+    second: Knight1_Hurt_0
+  - first:
+      213: 7916978247756738291
+    second: Knight1_Hurt_1
+  - first:
+      213: 8987768784955617688
+    second: Knight1_Hurt_2
+  - first:
+      213: -2300024317764049951
+    second: Knight1_Hurt_3
+  - first:
+      213: -5837127872883789694
+    second: Knight1_Hurt_4
+  - first:
+      213: 2850705950606680990
+    second: Knight1_Hurt_5
+  - first:
+      213: 3307672149683660818
+    second: Knight1_Hurt_6
+  - first:
+      213: 4555046562409010158
+    second: Knight1_Hurt_7
+  - first:
+      213: 5959419663159102540
+    second: Knight1_Hurt_8
+  - first:
+      213: -4647795182378284756
+    second: Knight1_Hurt_9
+  - first:
+      213: 3280069050337160061
+    second: Knight1_Hurt_10
+  - first:
+      213: 718115803774947833
+    second: Knight1_Hurt_11
+  - first:
+      213: 4322173527793443004
+    second: Knight1_Hurt_12
+  - first:
+      213: 7629496511126325096
+    second: Knight1_Hurt_13
+  - first:
+      213: -6409287035182238210
+    second: Knight1_Hurt_14
+  - first:
+      213: 2743755202953035122
+    second: Knight1_Hurt_15
+  - first:
+      213: 6601281331679220607
+    second: Knight1_Hurt_16
+  - first:
+      213: 4569358714763523720
+    second: Knight1_Hurt_17
+  - first:
+      213: -2890824190093967856
+    second: Knight1_Hurt_18
+  - first:
+      213: 7209082315663638249
+    second: Knight1_Hurt_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight1_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3432
+        width: 360
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff4aa5d8955e4190800000000000000
+      internalID: -7976343775118471174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 3440
+        width: 378
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fee80835c1cedd60800000000000000
+      internalID: 7916978247756738291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3459
+        width: 406
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891bf963718fabc70800000000000000
+      internalID: 8987768784955617688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 3476
+        width: 426
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3e9eca11ca410e0800000000000000
+      internalID: -2300024317764049951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3482
+        width: 451
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280fa34402b5efea0800000000000000
+      internalID: -5837127872883789694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 3424
+        width: 366
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e00955fdbf8720800000000000000
+      internalID: 2850705950606680990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 3427
+        width: 381
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218e85b9b4637ed20800000000000000
+      internalID: 3307672149683660818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 3450
+        width: 408
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d0cff6b6c63f30800000000000000
+      internalID: 4555046562409010158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 3469
+        width: 443
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c831afb9c14b250800000000000000
+      internalID: 5959419663159102540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2800
+        width: 462
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29029d18e6bf7fb0800000000000000
+      internalID: -4647795182378284756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2706
+        width: 363
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b69183c65258d20800000000000000
+      internalID: 3280069050337160061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2706
+        width: 380
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1999fc48247f900800000000000000
+      internalID: 718115803774947833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_12
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2701
+        width: 432
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0a9b57ce17bfb30800000000000000
+      internalID: 4322173527793443004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_13
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2709
+        width: 477
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86744c077aa61e960800000000000000
+      internalID: 7629496511126325096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_14
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 2708
+        width: 496
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5327c3663ad07a0800000000000000
+      internalID: -6409287035182238210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_15
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 2704
+        width: 363
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d35aee1d6c31620800000000000000
+      internalID: 2743755202953035122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_16
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 2706
+        width: 380
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73582565667c9b50800000000000000
+      internalID: 6601281331679220607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_17
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 2692
+        width: 432
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b0d4aa8f996f30800000000000000
+      internalID: 4569358714763523720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1980
+        width: 477
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01eb75127bab1e7d0800000000000000
+      internalID: -2890824190093967856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Hurt_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1982
+        width: 496
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee7ea5bb2ecb0460800000000000000
+      internalID: 7209082315663638249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight1_Hurt_0: -7976343775118471174
+      Knight1_Hurt_1: 7916978247756738291
+      Knight1_Hurt_10: 3280069050337160061
+      Knight1_Hurt_11: 718115803774947833
+      Knight1_Hurt_12: 4322173527793443004
+      Knight1_Hurt_13: 7629496511126325096
+      Knight1_Hurt_14: -6409287035182238210
+      Knight1_Hurt_15: 2743755202953035122
+      Knight1_Hurt_16: 6601281331679220607
+      Knight1_Hurt_17: 4569358714763523720
+      Knight1_Hurt_18: -2890824190093967856
+      Knight1_Hurt_19: 7209082315663638249
+      Knight1_Hurt_2: 8987768784955617688
+      Knight1_Hurt_3: -2300024317764049951
+      Knight1_Hurt_4: -5837127872883789694
+      Knight1_Hurt_5: 2850705950606680990
+      Knight1_Hurt_6: 3307672149683660818
+      Knight1_Hurt_7: 4555046562409010158
+      Knight1_Hurt_8: 5959419663159102540
+      Knight1_Hurt_9: -4647795182378284756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

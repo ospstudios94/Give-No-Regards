@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: 546295113b6803749ac97eefcbed43c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2722540757138242189
+    second: witch_Shoot_0
+  - first:
+      213: -5034428163027562350
+    second: witch_Shoot_1
+  - first:
+      213: -3440304774421219684
+    second: witch_Shoot_2
+  - first:
+      213: -3088335350006485236
+    second: witch_Shoot_3
+  - first:
+      213: -5563500492964655160
+    second: witch_Shoot_4
+  - first:
+      213: -936002629492553302
+    second: witch_Shoot_5
+  - first:
+      213: 5172763481584977803
+    second: witch_Shoot_6
+  - first:
+      213: -918202135508028917
+    second: witch_Shoot_7
+  - first:
+      213: -1725383342753603559
+    second: witch_Shoot_8
+  - first:
+      213: -1010230548523644358
+    second: witch_Shoot_9
+  - first:
+      213: -8471646805733353373
+    second: witch_Shoot_10
+  - first:
+      213: 6034589538877569923
+    second: witch_Shoot_11
+  - first:
+      213: -2660223266911057981
+    second: witch_Shoot_12
+  - first:
+      213: 1772393716130927419
+    second: witch_Shoot_13
+  - first:
+      213: 8383127235032326897
+    second: witch_Shoot_14
+  - first:
+      213: -4545763805139063447
+    second: witch_Shoot_15
+  - first:
+      213: 8857698865378224207
+    second: witch_Shoot_16
+  - first:
+      213: -5030554597410158957
+    second: witch_Shoot_17
+  - first:
+      213: 1651712306056962298
+    second: witch_Shoot_18
+  - first:
+      213: 5598803395210969832
+    second: witch_Shoot_19
+  - first:
+      213: -3351490977729989912
+    second: witch_Shoot_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoot Back (1)
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3614
+        width: 436
+        height: 477
+      alignment: 9
+      pivot: {x: 0.6364679, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a838cdc75aabf47b90829e4608b106
+      internalID: 425990736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Back (2)
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3610
+        width: 423
+        height: 481
+      alignment: 9
+      pivot: {x: 0.63002366, y: 0.46673596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8457ca799dde00742a9fe8c62c98f7ed
+      internalID: 75016785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Back (3)
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 3614
+        width: 430
+        height: 477
+      alignment: 9
+      pivot: {x: 0.6360465, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b906147613ef324ab1dedff77531228
+      internalID: -451234179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Back (5)
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 3614
+        width: 435
+        height: 477
+      alignment: 9
+      pivot: {x: 0.63793105, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6172e1d71282b4cbe4d8b1990a3a93
+      internalID: -1956865371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Front (1)
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 3596
+        width: 451
+        height: 495
+      alignment: 9
+      pivot: {x: 0.38248336, y: 0.47575757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3947f1c0a2a747a4e65515bf129fb
+      internalID: -858377777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Front (2)
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 3595
+        width: 436
+        height: 496
+      alignment: 9
+      pivot: {x: 0.3543578, y: 0.47883064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b8f55f7d55e26498d93d9ad114fe0c
+      internalID: 274668440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Front (3)
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 3600
+        width: 436
+        height: 491
+      alignment: 9
+      pivot: {x: 0.3428899, y: 0.4796334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66f98a289988ad4280da8a1080cbda5
+      internalID: 372296606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Front (4)
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 3576
+        width: 436
+        height: 515
+      alignment: 9
+      pivot: {x: 0.3428899, y: 0.5038835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e59543df53cd1459640b19787cddda
+      internalID: -1969633573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Front (5)
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3067
+        width: 436
+        height: 499
+      alignment: 9
+      pivot: {x: 0.3428899, y: 0.48797596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67db1d354badf624c8ed85a71b01fb88
+      internalID: 2061377863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Left (1)
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3083
+        width: 383
+        height: 483
+      alignment: 9
+      pivot: {x: 0.51566577, y: 0.4751553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395a07bb27995b841bf13fba0f145d03
+      internalID: -1559827008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Left (2)
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 3077
+        width: 392
+        height: 489
+      alignment: 9
+      pivot: {x: 0.54464287, y: 0.4795501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d92ccdf5fff6f94c8ba137379f471a4
+      internalID: 349757814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Left (3)
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3082
+        width: 380
+        height: 484
+      alignment: 9
+      pivot: {x: 0.51184213, y: 0.47417355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bee1415a8dfe740a820c834ffed4a2
+      internalID: -1445078422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Left (4)
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 3083
+        width: 382
+        height: 483
+      alignment: 9
+      pivot: {x: 0.5143979, y: 0.4751553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4e801ee7c9c3047b82f774559c2586
+      internalID: -2103861454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Left (5)
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3083
+        width: 383
+        height: 483
+      alignment: 9
+      pivot: {x: 0.51566577, y: 0.4751553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb68fe998261d4bb2476e9bc499731
+      internalID: -1475580217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Right (1)
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 3081
+        width: 378
+        height: 485
+      alignment: 9
+      pivot: {x: 0.4510582, y: 0.4773196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5387664f1deca4478d5184debee3543
+      internalID: -113818002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Right (2)
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 3070
+        width: 369
+        height: 496
+      alignment: 9
+      pivot: {x: 0.48373982, y: 0.48689517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a8e08c737347d4a9ea9640d07eecc3
+      internalID: -1273809850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Right (3)
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3082
+        width: 392
+        height: 484
+      alignment: 9
+      pivot: {x: 0.4732143, y: 0.47623968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4b57d947414a488c52bf79bd5b5e9
+      internalID: 361685739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Right (4)
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 3081
+        width: 379
+        height: 485
+      alignment: 9
+      pivot: {x: 0.44986808, y: 0.4773196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa07e348d53def4a9126369ba7c953e
+      internalID: 366663975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Right (5)
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2572
+        width: 380
+        height: 485
+      alignment: 9
+      pivot: {x: 0.44868422, y: 0.4773196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2728169097918f47b3022e4de079f7b
+      internalID: -1229875724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot Back (4)
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 3598
+        width: 451
+        height: 493
+      alignment: 9
+      pivot: {x: 0.61529934, y: 0.47971603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508fb9beb59f7f4693a017dc4d56930
+      internalID: 567149038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f62ace219c362c649aca5a9f44afa8a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shoot Back (1): 425990736
+      Shoot Back (2): 75016785
+      Shoot Back (3): -451234179
+      Shoot Back (4): 567149038
+      Shoot Back (5): -1956865371
+      Shoot Front (1): -858377777
+      Shoot Front (2): 274668440
+      Shoot Front (3): 372296606
+      Shoot Front (4): -1969633573
+      Shoot Front (5): 2061377863
+      Shoot Left (1): -1559827008
+      Shoot Left (2): 349757814
+      Shoot Left (3): -1445078422
+      Shoot Left (4): -2103861454
+      Shoot Left (5): -1475580217
+      Shoot Right (1): -113818002
+      Shoot Right (2): -1273809850
+      Shoot Right (3): 361685739
+      Shoot Right (4): 366663975
+      Shoot Right (5): -1229875724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

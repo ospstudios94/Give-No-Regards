@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 93f2e32b1b52ff04cb80603a58d586c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5086460106305673084
+    second: witch_Walk_0
+  - first:
+      213: -1175715265658706095
+    second: witch_Walk_1
+  - first:
+      213: -1485497813209743002
+    second: witch_Walk_2
+  - first:
+      213: -6008414427742291558
+    second: witch_Walk_3
+  - first:
+      213: -7208123152129875639
+    second: witch_Walk_4
+  - first:
+      213: -4058597261683674183
+    second: witch_Walk_5
+  - first:
+      213: 6710638220719874088
+    second: witch_Walk_6
+  - first:
+      213: 1737024985370926304
+    second: witch_Walk_7
+  - first:
+      213: 2516465850888242085
+    second: witch_Walk_8
+  - first:
+      213: 1169328282072105024
+    second: witch_Walk_9
+  - first:
+      213: -3968504723515172847
+    second: witch_Walk_10
+  - first:
+      213: -443359348838102229
+    second: witch_Walk_11
+  - first:
+      213: -8631394755100647175
+    second: witch_Walk_12
+  - first:
+      213: -7934756399906507831
+    second: witch_Walk_13
+  - first:
+      213: 8111645056393415979
+    second: witch_Walk_14
+  - first:
+      213: 7020542770349890996
+    second: witch_Walk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: witch_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1562
+        width: 348
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c779b88748cb69640800000000000000
+      internalID: 5086460106305673084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1552
+        width: 347
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157a861f1350fafe0800000000000000
+      internalID: -1175715265658706095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1562
+        width: 348
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66183010c93726be0800000000000000
+      internalID: -1485497813209743002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1553
+        width: 347
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99b61379e2dd9ca0800000000000000
+      internalID: -6008414427742291558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1542
+        width: 362
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a704fe2a97fb90800000000000000
+      internalID: -7208123152129875639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1027
+        width: 362
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b8fa3b47fca7c0800000000000000
+      internalID: -4058597261683674183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1028
+        width: 362
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820ea2248e9f02d50800000000000000
+      internalID: 6710638220719874088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1027
+        width: 362
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec130365072b1810800000000000000
+      internalID: 1737024985370926304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1031
+        width: 362
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3489bcb584ce220800000000000000
+      internalID: 2516465850888242085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1038
+        width: 362
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040c9be80e94a3010800000000000000
+      internalID: 1169328282072105024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 515
+        width: 362
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1181b61eaf90de8c0800000000000000
+      internalID: -3968504723515172847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 527
+        width: 362
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b08a0750fd8d9f0800000000000000
+      internalID: -443359348838102229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 515
+        width: 362
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f06e0a8330273880800000000000000
+      internalID: -8631394755100647175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 522
+        width: 362
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3b05c281512e190800000000000000
+      internalID: -7934756399906507831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 515
+        width: 362
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d0262933a529070800000000000000
+      internalID: 8111645056393415979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 17
+        width: 362
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd5425047afd6160800000000000000
+      internalID: 7020542770349890996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8e59d5d14eecac04b8933c841e265bcd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      witch_Walk_0: 5086460106305673084
+      witch_Walk_1: -1175715265658706095
+      witch_Walk_10: -3968504723515172847
+      witch_Walk_11: -443359348838102229
+      witch_Walk_12: -8631394755100647175
+      witch_Walk_13: -7934756399906507831
+      witch_Walk_14: 8111645056393415979
+      witch_Walk_15: 7020542770349890996
+      witch_Walk_2: -1485497813209743002
+      witch_Walk_3: -6008414427742291558
+      witch_Walk_4: -7208123152129875639
+      witch_Walk_5: -4058597261683674183
+      witch_Walk_6: 6710638220719874088
+      witch_Walk_7: 1737024985370926304
+      witch_Walk_8: 2516465850888242085
+      witch_Walk_9: 1169328282072105024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

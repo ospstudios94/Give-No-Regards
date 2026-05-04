@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6f504a29ae2b2634d9ee0ccebffd0824
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2059151621706792546
+    second: Viking_Walk_0
+  - first:
+      213: -8469806989841464863
+    second: Viking_Walk_1
+  - first:
+      213: 1868695813437755316
+    second: Viking_Walk_2
+  - first:
+      213: -5683920645871072537
+    second: Viking_Walk_3
+  - first:
+      213: 8228216627833371696
+    second: Viking_Walk_4
+  - first:
+      213: -4433479095717046680
+    second: Viking_Walk_5
+  - first:
+      213: 7888922571850875394
+    second: Viking_Walk_6
+  - first:
+      213: 5756125326425762508
+    second: Viking_Walk_7
+  - first:
+      213: 3142571599345374192
+    second: Viking_Walk_8
+  - first:
+      213: 2483968632696875382
+    second: Viking_Walk_9
+  - first:
+      213: -2038888596831906791
+    second: Viking_Walk_10
+  - first:
+      213: 6781967149549007102
+    second: Viking_Walk_11
+  - first:
+      213: -1388315242806642205
+    second: Viking_Walk_12
+  - first:
+      213: 7754158864047555586
+    second: Viking_Walk_13
+  - first:
+      213: -1335312392503581941
+    second: Viking_Walk_14
+  - first:
+      213: -2422845897629529998
+    second: Viking_Walk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viking_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1644
+        width: 356
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914f79828c6c63e0800000000000000
+      internalID: -2059151621706792546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1624
+        width: 366
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1016eea63357a80800000000000000
+      internalID: -8469806989841464863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1643
+        width: 362
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf873901f0fee910800000000000000
+      internalID: 1868695813437755316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1625
+        width: 356
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea885b8948ae11b0800000000000000
+      internalID: -5683920645871072537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1647
+        width: 361
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c78f49d6f703270800000000000000
+      internalID: 8228216627833371696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1119
+        width: 363
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8665aa4804e1972c0800000000000000
+      internalID: -4433479095717046680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1110
+        width: 361
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2028bb328451b7d60800000000000000
+      internalID: 7888922571850875394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1117
+        width: 356
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaac34bc7dd1ef40800000000000000
+      internalID: 5756125326425762508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1095
+        width: 359
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f356343838ac9b20800000000000000
+      internalID: 3142571599345374192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1103
+        width: 387
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6792c119f44d87220800000000000000
+      internalID: 2483968632696875382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 552
+        width: 366
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9145d39af9964b3e0800000000000000
+      internalID: -2038888596831906791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 563
+        width: 352
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0bc3ba0336e1e50800000000000000
+      internalID: 6781967149549007102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 552
+        width: 359
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9ff3c64a6bbbce0800000000000000
+      internalID: -1388315242806642205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 565
+        width: 387
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204408f476e4c9b60800000000000000
+      internalID: 7754158864047555586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 546
+        width: 366
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a5ac2474087de0800000000000000
+      internalID: -1335312392503581941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 352
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278874e2e72506ed0800000000000000
+      internalID: -2422845897629529998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Viking_Walk_0: -2059151621706792546
+      Viking_Walk_1: -8469806989841464863
+      Viking_Walk_10: -2038888596831906791
+      Viking_Walk_11: 6781967149549007102
+      Viking_Walk_12: -1388315242806642205
+      Viking_Walk_13: 7754158864047555586
+      Viking_Walk_14: -1335312392503581941
+      Viking_Walk_15: -2422845897629529998
+      Viking_Walk_2: 1868695813437755316
+      Viking_Walk_3: -5683920645871072537
+      Viking_Walk_4: 8228216627833371696
+      Viking_Walk_5: -4433479095717046680
+      Viking_Walk_6: 7888922571850875394
+      Viking_Walk_7: 5756125326425762508
+      Viking_Walk_8: 3142571599345374192
+      Viking_Walk_9: 2483968632696875382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 609b1749ababdc747b7b0f6c74b6b61b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1374931048876268650
+    second: ghost_Fly_0
+  - first:
+      213: 4463723373261320913
+    second: ghost_Fly_1
+  - first:
+      213: 6768637834148775605
+    second: ghost_Fly_2
+  - first:
+      213: -6746609424578955886
+    second: ghost_Fly_3
+  - first:
+      213: -1242837834265853671
+    second: ghost_Fly_4
+  - first:
+      213: -5619752418088768331
+    second: ghost_Fly_5
+  - first:
+      213: -5691501033765107231
+    second: ghost_Fly_6
+  - first:
+      213: -7049899456713921344
+    second: ghost_Fly_7
+  - first:
+      213: -1690422541945367030
+    second: ghost_Fly_8
+  - first:
+      213: 5567835456677147340
+    second: ghost_Fly_9
+  - first:
+      213: 6205695189941605075
+    second: ghost_Fly_10
+  - first:
+      213: 1432645590899239479
+    second: ghost_Fly_11
+  - first:
+      213: -3117633793839249426
+    second: ghost_Fly_12
+  - first:
+      213: 843637797489078502
+    second: ghost_Fly_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fly Back (1)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1769
+        width: 193
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5362694, y: 0.49256507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cb96dde3a01f84a868f848ff680621
+      internalID: -1314417360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Back (2)
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1768
+        width: 185
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5540541, y: 0.49814814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b8ed07bc0f4a44ca0e24337803bfd0
+      internalID: 2116224437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Back (3)
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1772
+        width: 187
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5588235, y: 0.5056391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ab7a1347e112d4884ec15801c2d50f
+      internalID: 1491426321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Back (4)
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1768
+        width: 185
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5540541, y: 0.49814814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce49bd8ec13a49c4f980f5d3550232ad
+      internalID: -1353378778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Front (1)
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1769
+        width: 192
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5494792, y: 0.50743496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932701743a4d1714b86d26edc7a563db
+      internalID: -1446325443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Front (2)
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1771
+        width: 192
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5494792, y: 0.51123595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185e885ff0b920942b26d36b6ff54e76
+      internalID: -1460914050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Front (3)
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1776
+        width: 192
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5494792, y: 0.52099234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dec52783ca7b647a87d72c45500aca
+      internalID: 99103006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Front (4)
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1771
+        width: 192
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5494792, y: 0.51123595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c387798cd0e977943a23c4ce6f1e62e6
+      internalID: 1797144736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Left (1)
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1772
+        width: 198
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5328283, y: 0.5093985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1a380064a768d4681199c11ac5c69e
+      internalID: -1935820759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Left (2)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1483
+        width: 198
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5328283, y: 0.51509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ff3ba283e82043bac8ab274db6327
+      internalID: -1295349855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Left (3)
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1488
+        width: 198
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5328283, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dced958c0a63f1469d3edf054b9a2a9
+      internalID: -1978517277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Left (4)
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1483
+        width: 198
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5328283, y: 0.51509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a149694d7ffc7ba4a9e8e8cba2d6cbbc
+      internalID: 1262570389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Right (1)
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1482
+        width: 195
+        height: 266
+      alignment: 9
+      pivot: {x: 0.45897436, y: 0.5093985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c29ac2ad792dbd43b6c76fdd21f57f1
+      internalID: 559797214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Right (2)
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1483
+        width: 195
+        height: 265
+      alignment: 9
+      pivot: {x: 0.45897436, y: 0.51509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49dfdea172c95d43b728d4661b72af7
+      internalID: 7886302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Right (3)
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1488
+        width: 195
+        height: 260
+      alignment: 9
+      pivot: {x: 0.45897436, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866c3d974c78ea45b6847483fb26092
+      internalID: -1058979978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly Right (4)
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1483
+        width: 195
+        height: 265
+      alignment: 9
+      pivot: {x: 0.45897436, y: 0.51509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9447a3074d5964eb7a2f31e2eb8536
+      internalID: 2109712295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7d0ed3e74fe389c48b318f4e504258e4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fly Back (1): -1314417360
+      Fly Back (2): 2116224437
+      Fly Back (3): 1491426321
+      Fly Back (4): -1353378778
+      Fly Front (1): -1446325443
+      Fly Front (2): -1460914050
+      Fly Front (3): 99103006
+      Fly Front (4): 1797144736
+      Fly Left (1): -1935820759
+      Fly Left (2): -1295349855
+      Fly Left (3): -1978517277
+      Fly Left (4): 1262570389
+      Fly Right (1): 559797214
+      Fly Right (2): 7886302
+      Fly Right (3): -1058979978
+      Fly Right (4): 2109712295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

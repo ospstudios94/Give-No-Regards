@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 3a78198ad68282241aa65fa42e72dec6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4486859903289069865
+    second: witch_Hurt_0
+  - first:
+      213: 1682913111332855885
+    second: witch_Hurt_1
+  - first:
+      213: -3344620834811397949
+    second: witch_Hurt_2
+  - first:
+      213: 8817733484605930277
+    second: witch_Hurt_3
+  - first:
+      213: -9012741701763482140
+    second: witch_Hurt_4
+  - first:
+      213: -1801465155310772753
+    second: witch_Hurt_5
+  - first:
+      213: -6529154145580540731
+    second: witch_Hurt_6
+  - first:
+      213: 5030593679344526119
+    second: witch_Hurt_7
+  - first:
+      213: 1230367636196795714
+    second: witch_Hurt_8
+  - first:
+      213: -1490377015534807842
+    second: witch_Hurt_9
+  - first:
+      213: -6093886144758983744
+    second: witch_Hurt_10
+  - first:
+      213: -4379160523450943519
+    second: witch_Hurt_11
+  - first:
+      213: -1628152617368503900
+    second: witch_Hurt_12
+  - first:
+      213: 7341461271799303707
+    second: witch_Hurt_13
+  - first:
+      213: 313758559818481765
+    second: witch_Hurt_14
+  - first:
+      213: -5056365818394843861
+    second: witch_Hurt_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hurt Back (1)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3590
+        width: 356
+        height: 496
+      alignment: 9
+      pivot: {x: 0.48735955, y: 0.4768145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4251a7a6608acc8449a1ea46b34ded8d
+      internalID: -650983651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Back (2)
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3597
+        width: 354
+        height: 489
+      alignment: 9
+      pivot: {x: 0.51836157, y: 0.47341514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc2df8651438904b8fa38424bcba21b
+      internalID: -7759831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Back (3)
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3600
+        width: 350
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5385714, y: 0.4722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd0a324f5b3f3e408540e992526f3e1
+      internalID: -406081564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Back (4)
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 3599
+        width: 354
+        height: 487
+      alignment: 9
+      pivot: {x: 0.53531075, y: 0.47125256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711d2143575e32b4cad528afb6688223
+      internalID: -1140000631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Front (1)
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3579
+        width: 370
+        height: 507
+      alignment: 9
+      pivot: {x: 0.48783785, y: 0.48027614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b92f675127e0824fab9c30fe7de69c2
+      internalID: 282033896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Front (2)
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 3580
+        width: 379
+        height: 506
+      alignment: 9
+      pivot: {x: 0.5105541, y: 0.48122528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea1d19b583385348b7f565b930df7d5
+      internalID: -533803093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Front (3)
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 3584
+        width: 398
+        height: 502
+      alignment: 9
+      pivot: {x: 0.53140706, y: 0.48505977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c3e7842c40144baebc4c42f6537db
+      internalID: 1829774496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Front (4)
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 3583
+        width: 387
+        height: 503
+      alignment: 9
+      pivot: {x: 0.52067184, y: 0.48409542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83d7a9507dd88d419eb7906b3480d3b
+      internalID: -1009555083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Left (1)
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 3585
+        width: 384
+        height: 501
+      alignment: 9
+      pivot: {x: 0.55078125, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368645a823f95c24898715630237f46a
+      internalID: -160039243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Left (2)
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 3594
+        width: 375
+        height: 492
+      alignment: 9
+      pivot: {x: 0.5426667, y: 0.49695122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ff94d47c528b45a7f49456d99b3ea
+      internalID: -1236191060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Left (3)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3069
+        width: 367
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5217984, y: 0.4989796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b4f0479b4c5f4a9d284b6d5b04c40
+      internalID: 1836338263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Left (4)
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3069
+        width: 372
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5336022, y: 0.4989796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cfff1b989a5c443b8c5532694bdbcb
+      internalID: -110237869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Right (1)
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 3055
+        width: 378
+        height: 504
+      alignment: 9
+      pivot: {x: 0.4537037, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd3373ad4181141b42c754c399ce5d
+      internalID: -898233391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Right (2)
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 3064
+        width: 372
+        height: 495
+      alignment: 9
+      pivot: {x: 0.45295697, y: 0.5020202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f2283ecee6e14e8f5d0403adf3291
+      internalID: -175226389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Right (3)
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 3068
+        width: 364
+        height: 491
+      alignment: 9
+      pivot: {x: 0.49313188, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39909a93b145c7438847116546f3140
+      internalID: -490008785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt Right (4)
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 3070
+        width: 377
+        height: 489
+      alignment: 9
+      pivot: {x: 0.46551725, y: 0.502045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa72d01a8daca7e4dac7c91e68bc92a0
+      internalID: -1289702484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7ad4ab7444ed8984f819a6e069ccd417
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hurt Back (1): -650983651
+      Hurt Back (2): -7759831
+      Hurt Back (3): -406081564
+      Hurt Back (4): -1140000631
+      Hurt Front (1): 282033896
+      Hurt Front (2): -533803093
+      Hurt Front (3): 1829774496
+      Hurt Front (4): -1009555083
+      Hurt Left (1): -160039243
+      Hurt Left (2): -1236191060
+      Hurt Left (3): 1836338263
+      Hurt Left (4): -110237869
+      Hurt Right (1): -898233391
+      Hurt Right (2): -175226389
+      Hurt Right (3): -490008785
+      Hurt Right (4): -1289702484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

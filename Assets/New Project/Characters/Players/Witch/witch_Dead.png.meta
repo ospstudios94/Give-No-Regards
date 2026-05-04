@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 631b5024d63f6074d9ef32bef71d29cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8354283715812621445
+    second: witch_Dead_0
+  - first:
+      213: 1181634324439619467
+    second: witch_Dead_1
+  - first:
+      213: -6398957389277410896
+    second: witch_Dead_2
+  - first:
+      213: 5636295105542476591
+    second: witch_Dead_3
+  - first:
+      213: -7346406090503105443
+    second: witch_Dead_4
+  - first:
+      213: -6817383073641718556
+    second: witch_Dead_5
+  - first:
+      213: -514152425040698467
+    second: witch_Dead_6
+  - first:
+      213: -7855561735589916226
+    second: witch_Dead_7
+  - first:
+      213: 8666686971241457908
+    second: witch_Dead_8
+  - first:
+      213: 8300443348148170597
+    second: witch_Dead_9
+  - first:
+      213: 6601681324769651956
+    second: witch_Dead_10
+  - first:
+      213: -6013425878619775010
+    second: witch_Dead_11
+  - first:
+      213: 115250262284863269
+    second: witch_Dead_12
+  - first:
+      213: -7394655002368416805
+    second: witch_Dead_13
+  - first:
+      213: 74600196427754519
+    second: witch_Dead_14
+  - first:
+      213: -3614973060188141547
+    second: witch_Dead_15
+  - first:
+      213: -4875173655508807461
+    second: witch_Dead_16
+  - first:
+      213: -987461788459923628
+    second: witch_Dead_17
+  - first:
+      213: -1085040467824153112
+    second: witch_Dead_18
+  - first:
+      213: 341094314852393498
+    second: witch_Dead_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dead Back (1)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3602
+        width: 354
+        height: 484
+      alignment: 9
+      pivot: {x: 0.16949153, y: 0.3997934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8ce47d601b02b4883a6a79ec72ead6
+      internalID: 322776363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Back (2)
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3619
+        width: 394
+        height: 467
+      alignment: 9
+      pivot: {x: 0.40862945, y: 0.43361884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cee85794bcdf943a5611ede78bdfa2
+      internalID: 1530365320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Back (3)
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3705
+        width: 454
+        height: 381
+      alignment: 9
+      pivot: {x: 0.52863437, y: 0.53149605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9458c901390cb894ebd62b65f45f3c23
+      internalID: -408074785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Back (4)
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 3771
+        width: 491
+        height: 315
+      alignment: 9
+      pivot: {x: 0.62118125, y: 0.8111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2c6ecd0cd3bc447a45f856dac22e25
+      internalID: -1539616217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Back (5)
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 3763
+        width: 488
+        height: 323
+      alignment: 9
+      pivot: {x: 0.6270492, y: 0.8126935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb5f90ad3baeb4f9f3015c0aa70d54
+      internalID: 70694432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Front (1)
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 3577
+        width: 460
+        height: 509
+      alignment: 9
+      pivot: {x: 0.19130434, y: 0.43123773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c013f8537ab3764a88393fe9e84446c
+      internalID: -831891671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Front (2)
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 3592
+        width: 424
+        height: 494
+      alignment: 9
+      pivot: {x: 0.3254717, y: 0.43623483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb50fdb3528a04ba70d73f6133b8bc
+      internalID: 149676318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Front (3)
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 3648
+        width: 482
+        height: 438
+      alignment: 9
+      pivot: {x: 0.560166, y: 0.4851598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc05ccbc22a694cbfe32fbd283e641
+      internalID: 509189197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Front (4)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3151
+        width: 488
+        height: 406
+      alignment: 9
+      pivot: {x: 0.68442625, y: 0.6317734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38c106b37eed7246b2c2c3b45dd5123
+      internalID: 351302997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Front (5)
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3125
+        width: 492
+        height: 432
+      alignment: 9
+      pivot: {x: 0.6869919, y: 0.6446759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600f1e37faf0ba4fae5de449a004569
+      internalID: 79652208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Left (1)
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 3066
+        width: 364
+        height: 491
+      alignment: 9
+      pivot: {x: 0.8791209, y: 0.4287169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe138c81b2fa5dc46a5f961ab2295f1e
+      internalID: -1055743523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Left (2)
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3076
+        width: 389
+        height: 481
+      alignment: 9
+      pivot: {x: 0.71465296, y: 0.43139294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98938d72ec90cab49923367d3a4983be
+      internalID: 1688269197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Left (3)
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 3182
+        width: 439
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4236902, y: 0.516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130d9e259bc2b0e4b8e726615c4acb8b
+      internalID: 1035643318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Left (4)
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 3138
+        width: 478
+        height: 419
+      alignment: 9
+      pivot: {x: 0.3451883, y: 0.6575179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26daee5ed5c37c4e85574f07c8aa1ab
+      internalID: 1355040166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Left (5)
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 3120
+        width: 481
+        height: 437
+      alignment: 9
+      pivot: {x: 0.34719336, y: 0.6533181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950e3ce6b93afcb49bfa2f99db3ded65
+      internalID: -1938113906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Right (1)
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 3063
+        width: 369
+        height: 494
+      alignment: 9
+      pivot: {x: 0.124661244, y: 0.43016195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5360268c42ee445bf00f1d7f7a26ec
+      internalID: -2143204432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Right (2)
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 3080
+        width: 393
+        height: 477
+      alignment: 9
+      pivot: {x: 0.2773537, y: 0.42662475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5781829933898744e8485f1e816a1a4e
+      internalID: 2088327644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Right (3)
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2667
+        width: 438
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5776256, y: 0.51462764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0957ee598bbe6341a260e0a8aec7906
+      internalID: -2065951067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Right (4)
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2632
+        width: 479
+        height: 411
+      alignment: 9
+      pivot: {x: 0.651357, y: 0.6727494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ed54d44c250b04bbe5bec9f9dee27d
+      internalID: 1570217976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Right (5)
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2620
+        width: 487
+        height: 423
+      alignment: 9
+      pivot: {x: 0.64271045, y: 0.6749409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b1968ff60e4642b1be52d9cb21b70
+      internalID: 455171003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 218e2c6a593e3be49b500d4db42f3f63
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dead Back (1): 322776363
+      Dead Back (2): 1530365320
+      Dead Back (3): -408074785
+      Dead Back (4): -1539616217
+      Dead Back (5): 70694432
+      Dead Front (1): -831891671
+      Dead Front (2): 149676318
+      Dead Front (3): 509189197
+      Dead Front (4): 351302997
+      Dead Front (5): 79652208
+      Dead Left (1): -1055743523
+      Dead Left (2): 1688269197
+      Dead Left (3): 1035643318
+      Dead Left (4): 1355040166
+      Dead Left (5): -1938113906
+      Dead Right (1): -2143204432
+      Dead Right (2): 2088327644
+      Dead Right (3): -2065951067
+      Dead Right (4): 1570217976
+      Dead Right (5): 455171003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

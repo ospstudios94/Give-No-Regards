@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 5fde75e822bd8244fb288b501c8c0d34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2263299065196301051
+    second: Knight1_Defend_0
+  - first:
+      213: -3539342842242278215
+    second: Knight1_Defend_1
+  - first:
+      213: -8644321478997989887
+    second: Knight1_Defend_2
+  - first:
+      213: 5795119815184430943
+    second: Knight1_Defend_3
+  - first:
+      213: -1517357976727305741
+    second: Knight1_Defend_4
+  - first:
+      213: 1839691664262770474
+    second: Knight1_Defend_5
+  - first:
+      213: -4860629531816714255
+    second: Knight1_Defend_6
+  - first:
+      213: 2032563330959575027
+    second: Knight1_Defend_7
+  - first:
+      213: 2126875029991143496
+    second: Knight1_Defend_8
+  - first:
+      213: -1216434255392158827
+    second: Knight1_Defend_9
+  - first:
+      213: 8220974165154227721
+    second: Knight1_Defend_10
+  - first:
+      213: -8143169259471192008
+    second: Knight1_Defend_11
+  - first:
+      213: -797124201278562901
+    second: Knight1_Defend_12
+  - first:
+      213: 1531858496760979037
+    second: Knight1_Defend_13
+  - first:
+      213: 7354235059283256908
+    second: Knight1_Defend_14
+  - first:
+      213: -197134129291220714
+    second: Knight1_Defend_15
+  - first:
+      213: -896907107977290730
+    second: Knight1_Defend_16
+  - first:
+      213: 5170906356605119910
+    second: Knight1_Defend_17
+  - first:
+      213: 4163332952363607874
+    second: Knight1_Defend_18
+  - first:
+      213: -5333718504873049186
+    second: Knight1_Defend_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight1_Defend_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3438
+        width: 400
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfacf71228ad86f10800000000000000
+      internalID: 2263299065196301051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3441
+        width: 400
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcd3ddef6ab1eec0800000000000000
+      internalID: -3539342842242278215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3445
+        width: 415
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106ab081a63390880800000000000000
+      internalID: -8644321478997989887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_3
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 3445
+        width: 427
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5735ee94c66c6050800000000000000
+      internalID: 5795119815184430943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_4
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 3441
+        width: 415
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f14010a5f241fae0800000000000000
+      internalID: -1517357976727305741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_5
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 3413
+        width: 406
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f21a052d5e78910800000000000000
+      internalID: 1839691664262770474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_6
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 3416
+        width: 406
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff9a4b81339b8cb0800000000000000
+      internalID: -4860629531816714255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_7
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 3419
+        width: 403
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7845d949d153c10800000000000000
+      internalID: 2032563330959575027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_8
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 3420
+        width: 399
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8483544329d248d10800000000000000
+      internalID: 2126875029991143496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2724
+        width: 396
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bcbba5d7b5e1fe0800000000000000
+      internalID: -1216434255392158827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2714
+        width: 354
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9066ea55274c61270800000000000000
+      internalID: 8220974165154227721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2718
+        width: 354
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830c65fe3b6adfe80800000000000000
+      internalID: -8143169259471192008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_12
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 2722
+        width: 354
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad9ce423cb00f4f0800000000000000
+      internalID: -797124201278562901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_13
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 2722
+        width: 354
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e1a99cf21424510800000000000000
+      internalID: 1531858496760979037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_14
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2720
+        width: 354
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c466d4f62dd7f0660800000000000000
+      internalID: 7354235059283256908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_15
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2715
+        width: 354
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619ad7acd83a34df0800000000000000
+      internalID: -197134129291220714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_16
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 2719
+        width: 354
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c9d70ccbb8d83f0800000000000000
+      internalID: -896907107977290730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_17
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2722
+        width: 354
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ade1484fefb2c740800000000000000
+      internalID: 5170906356605119910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_18
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 2723
+        width: 354
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247af4b034127c930800000000000000
+      internalID: 4163332952363607874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1_Defend_19
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 2721
+        width: 354
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e934d117743daf5b0800000000000000
+      internalID: -5333718504873049186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight1_Defend_0: 2263299065196301051
+      Knight1_Defend_1: -3539342842242278215
+      Knight1_Defend_10: 8220974165154227721
+      Knight1_Defend_11: -8143169259471192008
+      Knight1_Defend_12: -797124201278562901
+      Knight1_Defend_13: 1531858496760979037
+      Knight1_Defend_14: 7354235059283256908
+      Knight1_Defend_15: -197134129291220714
+      Knight1_Defend_16: -896907107977290730
+      Knight1_Defend_17: 5170906356605119910
+      Knight1_Defend_18: 4163332952363607874
+      Knight1_Defend_19: -5333718504873049186
+      Knight1_Defend_2: -8644321478997989887
+      Knight1_Defend_3: 5795119815184430943
+      Knight1_Defend_4: -1517357976727305741
+      Knight1_Defend_5: 1839691664262770474
+      Knight1_Defend_6: -4860629531816714255
+      Knight1_Defend_7: 2032563330959575027
+      Knight1_Defend_8: 2126875029991143496
+      Knight1_Defend_9: -1216434255392158827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
