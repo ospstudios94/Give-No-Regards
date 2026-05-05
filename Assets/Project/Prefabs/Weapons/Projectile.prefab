@@ -170,5 +170,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   damageOutput: 2
-  knockbackForce: 2
+  knockbackForce: 20
   shooterPressure: {fileID: 0}

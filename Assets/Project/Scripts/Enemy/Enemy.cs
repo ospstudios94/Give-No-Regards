@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour, IDamagable
     public int maxHealth;
     public int Health { get => health; set => health = value; }
 // get attacks and throw script here
-private float knockbackTimer;
+public float knockbackTimer;
 public float knockbackTotalTime = 0.2f;
 Rigidbody2D rig;
     void Awake()
@@ -15,15 +15,23 @@ Rigidbody2D rig;
     }
     void Update()
     {
-        if (knockbackTimer > 0)
-        {
-        knockbackTimer -= Time.fixedDeltaTime;
-        // If the timer just finished, stop the movement completely
-          if (knockbackTimer <= 0) rig.linearVelocity = Vector2.zero; 
-        }
+       
        
       
         
+    }
+    void FixedUpdate()
+    {
+         if (knockbackTimer > 0)
+        {
+        knockbackTimer -= Time.fixedDeltaTime;
+        // If the timer just finished, stop the movement completely
+          if (knockbackTimer <= 0)
+            {
+                rig.linearVelocity = Vector2.zero; 
+            } 
+        
+        }
     }
     public void Damage(int damage)
     {
@@ -37,8 +45,11 @@ Rigidbody2D rig;
 
     public void ApplyKnockback(Vector2 direction, float force)
 {
+    EnemyMovement enem = GetComponent<EnemyMovement>();
+    Debug.Log("Forcing Knockback in direction: " + direction);
     knockbackTimer = knockbackTotalTime; // Start the timer
-    rig.linearVelocity = Vector2.zero;          // Reset current velocity first
+    enem.StopMoving();
+   // rig.linearVelocity = Vector2.zero;          // Reset current velocity first
     rig.AddForce(direction * force, ForceMode2D.Impulse);
 }
 }

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    // this is for Skeleton Enemy, trigger to walk is the same.. 
+    // for others, even the chasing and moving around worked.. 
     [SerializeField] private Transform m_Target;
     [SerializeField] float chaseRange = 3;
     [SerializeField] float attackRange = 1.5f;
@@ -23,17 +25,23 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField]
     private float defaultSpeed = 2f;
 
+    Enemy enems;
+    bool isMoving = true;
 
+    void Awake()
+    {
+          _anim = GetComponent<Animator>();
+        body = GetComponent<Rigidbody2D>();
+        m_Target = FindAnyObjectByType<PlayerController>().transform;
+        enems = GetComponent<Enemy>();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        hInput = body.linearVelocity.x;
-        vInput = body.linearVelocity.y;
+       
 
-        _anim = GetComponent<Animator>();
-        body = GetComponent<Rigidbody2D>();
-        m_Target = FindAnyObjectByType<PlayerController>().transform;
+      
         defaultSpeed = _speed;
     }
 
@@ -42,16 +50,31 @@ public class EnemyMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-
-        Movement();
+        if (enems != null && enems.knockbackTimer > 0)
+    {
+        return; // EXIT and do nothing. Let the physics force move the rig.
+    }
+        if(isMoving)
+        {
+            Movement();
+        }
+        else
+        {
+            body.linearVelocity = Vector2.zero;
+            _speed = 0;
+        }
+      
+        
+        
     }
 
     private void Movement()
     {
+       
+       
+         direction = (m_Target.position - transform.position).normalized;
 
-
-        body.linearVelocity = _speed * Time.fixedDeltaTime * new Vector3(hInput, vInput, 0f).normalized;
-        //body.MovePosition(body.position + direction * _speed * Time.deltaTime);
+        body.linearVelocity = _speed * Time.fixedDeltaTime *direction;
 
         distance = Vector3.Distance(transform.position, m_Target.transform.position);
 
@@ -71,14 +94,15 @@ public class EnemyMovement : MonoBehaviour
                 if (Time.time - attackTime > attackRate)
                 {
                     attackTime = Time.time;
-                    _anim.SetTrigger("isHit");
+                    _anim.SetTrigger("Attack");
+                    StopMoving();
                 }
             }
 
         }
         else
         {
-
+            // idle
             CanMove();
             SetAnimFloat(transform.position);
             _anim.SetBool("Walk", false);
@@ -130,15 +154,16 @@ public class EnemyMovement : MonoBehaviour
 
     public void StopMoving()
     {
+        isMoving = false;
         _speed = 0;
     }
 
     public void CanMove()
     {
-
+        isMoving = true;
         _speed = defaultSpeed;
 
 
     }
-
+    
 }

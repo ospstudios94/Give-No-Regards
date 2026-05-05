@@ -22,8 +22,8 @@ public class PlayerProjectile : MonoBehaviour
        if(other.CompareTag("Enemy") || other.CompareTag("Imposter"))
         {
             Vector2 knockbackDirection = 
-            // other.GetComponent<Rigidbody2D>().linearVelocity.normalized; // if it is moving
-            (other.transform.position - transform.position).normalized;
+            other.GetComponent<Rigidbody2D>().linearVelocity.normalized; // if it is moving
+            //(other.transform.position - transform.position).normalized;
              int finalDamage = damageOutput;
             if (shooterPressure != null)
             {
