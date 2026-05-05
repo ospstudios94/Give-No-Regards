@@ -90,6 +90,7 @@ public void ApplyKnockback(Vector2 direction, float force)
     public void Damage(int damage)
     {
        health -= damage;
+        anim.SetTrigger("isHit");
         if(health <= 0)
         {
             // make all animations a second long

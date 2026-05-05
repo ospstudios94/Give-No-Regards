@@ -1,0 +1,1310 @@
+fileFormatVersion: 2
+guid: 926830eb6ebcde148a6b1e2982d0fcf3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6727956636993997132
+    second: Props_Sheet_0
+  - first:
+      213: -1619708708707348834
+    second: Props_Sheet_1
+  - first:
+      213: 141701151464820504
+    second: Props_Sheet_2
+  - first:
+      213: -7890785628116438326
+    second: Props_Sheet_3
+  - first:
+      213: 582850100590567457
+    second: Props_Sheet_4
+  - first:
+      213: 2077924171777207779
+    second: Props_Sheet_5
+  - first:
+      213: -3966589975936478504
+    second: Props_Sheet_6
+  - first:
+      213: 2093282298106633949
+    second: Props_Sheet_7
+  - first:
+      213: -4665098827738908340
+    second: Props_Sheet_8
+  - first:
+      213: -5302039941171549676
+    second: Props_Sheet_9
+  - first:
+      213: 1302836287551140071
+    second: Props_Sheet_10
+  - first:
+      213: -4305775406575372433
+    second: Props_Sheet_11
+  - first:
+      213: 8391668736412137365
+    second: Props_Sheet_12
+  - first:
+      213: -2262320457151588025
+    second: Props_Sheet_13
+  - first:
+      213: 739047994650745398
+    second: Props_Sheet_14
+  - first:
+      213: 2040473080215522764
+    second: Props_Sheet_15
+  - first:
+      213: 5131239648719450262
+    second: Props_Sheet_16
+  - first:
+      213: 2738366450440312643
+    second: Props_Sheet_17
+  - first:
+      213: -1699903738142854835
+    second: Props_Sheet_18
+  - first:
+      213: 1770338545572718534
+    second: Props_Sheet_19
+  - first:
+      213: -8860673349956856139
+    second: Props_Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Banner (1)
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3825
+        width: 185
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a1fbf877ab4414195e7ac9daff93a9
+      internalID: 1691696601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner (2)
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3697
+        width: 186
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a248ac23f06524eb9d38b04e74908d
+      internalID: -2091974608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel (1)
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3795
+        width: 231
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d280684ac67843b141f0d209912f4
+      internalID: 700096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel (2)
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 3795
+        width: 231
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37ac3be991fbe43b367963a258b7ea
+      internalID: 1955259227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrel (3)
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 3795
+        width: 231
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b23b328585ea4bb2ce6a753db56f3
+      internalID: 454017409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Door 1
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 3423
+        width: 512
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d3c934dfe1487468b4685e744f5f33
+      internalID: -2026003847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Door 2
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 3423
+        width: 512
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa4265eaaa5be4495ea7f82eee4224
+      internalID: -546983005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Door 3
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 3419
+        width: 512
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034f25ba41fa51547b92d8c7fad64545
+      internalID: 186180712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3841
+        width: 218
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85258823d5e9f5245a4d32509c731e12
+      internalID: -1538462915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Floor Button 1
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 3835
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7563fedc48a280644ac379c340f16695
+      internalID: -480303009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Floor Button 2
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 3835
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02511a6fa43f0c478f025aa0f8f1c6f
+      internalID: -491073632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Trap 1
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 3827
+        width: 256
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5462e99954c3f104591b356b79d6b0a2
+      internalID: 1066940026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Trap 2
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 3827
+        width: 256
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e7eef74c6bc64687976e7791ddc26
+      internalID: 1634784820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door 1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2738
+        width: 256
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f4acdefbe3ca648a25ed441edeab56
+      internalID: -865460946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door 2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2738
+        width: 256
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176619835169b4543b0093bb8d38c199
+      internalID: 965232935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door 3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2738
+        width: 256
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099aed051773eba42b2dc28c69cc62c2
+      internalID: 563237381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Chest 1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dc6a8d425641245bd583eb17d659d7
+      internalID: 1749261009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Chest 2
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6460ad753682844a7a7800344fbe0e
+      internalID: -635089212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Chest 3
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d7e4a64154cfc4aaf7d3ee7049d737
+      internalID: 1227278090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Chest 1
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a69d95f063117b43a30b0bbd537f55d
+      internalID: 732286879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Chest 2
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1840d49bea2f194dbf77e4e8def1ef2
+      internalID: -1909844807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Chest 3
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 3119
+        width: 304
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a9e50030e2d6f4598cd74ae8c30cd3
+      internalID: -1572500767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate 1
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 2869
+        width: 256
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7d14954c644f64baf70df16b9f64d0
+      internalID: -87124796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate 2
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 2869
+        width: 256
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29e1ce5e902dea4384d83a1b8be9751
+      internalID: -995264787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate 3
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 2869
+        width: 256
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0c6816969f2a4d954d3526e63c1bb
+      internalID: 1428458005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate 4
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2869
+        width: 256
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbefb71bb91531419f01b3ad220f11c
+      internalID: 296575230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key (1)
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 3267
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8488cd9a544e4e8573ac3cd57370c
+      internalID: 2046854730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key (2)
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 3267
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d560a6137ced6d40882fc181b5ce2c7
+      internalID: 1904770160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladder (1)
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2471
+        width: 513
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b24ea3e4ebe9d54f8ecdce5ecb6d1dd
+      internalID: -1021232575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladder (2)
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2471
+        width: 513
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0286d67bd7e44f34f98febac8f26891b
+      internalID: 391929110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lever 1
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2438
+        width: 414
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d9866b7aff91429207e528ba4d8b2
+      internalID: 1404021254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lever 2
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 2438
+        width: 414
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c0e00968ff3974e987ebbded74c01d
+      internalID: -947046293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lever 3
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 2438
+        width: 414
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baa909b62ea5cb4999bd05dab026c81
+      internalID: 748986459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lever 4
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2438
+        width: 414
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c975ac2b613eebd49ae542796749f9f4
+      internalID: 293397929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot (1)
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 2482
+        width: 181
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04959a4467d0cec4da45479451b0aeb5
+      internalID: 1824077410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot (2)
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 2483
+        width: 181
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37031e875b56df4eac48d155db8c156
+      internalID: 1584084013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 2541
+        width: 227
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869381e14ec58274abde83634bb32663
+      internalID: 210140666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton2
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 2579
+        width: 214
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb0036d273c74545b2b265760c75c6a
+      internalID: -1712579332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 2347
+        width: 28
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912fe839e6256a4b8bfbe4e60e41894
+      internalID: -1256746931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch 1
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 2480
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee101f28ff8e1634a9c1aac54600b84d
+      internalID: -1546411929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch 2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2180
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b2076ff2330af48be41c02a24a2827
+      internalID: 928261064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch 3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2180
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d1e76d58d22394c80ce9883c9ba31f
+      internalID: -639079157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch 4
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2180
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52bb7607ec587e4d85b0816ced234a4
+      internalID: -139329667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Torch (1)
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2128
+        width: 165
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871856676afe827489402cc8bbd59e18
+      internalID: -1184964707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Torch (2)
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 2128
+        width: 166
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f400f489b3d840ac81b9583068eee
+      internalID: 2121994329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Torch (3)
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 2128
+        width: 166
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298e04e5a516ffc498dd1fed2a082b53
+      internalID: -1557203321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Torch (4)
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2128
+        width: 165
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8715ef1c916f34ba6747dfae426ae4
+      internalID: 854386997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2128
+        width: 165
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211c2f56d36502d48b2afadefed57b4e
+      internalID: -1324795432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b62f1da736b6637479834ef7d5e6d1e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Banner (1): 1691696601
+      Banner (2): -2091974608
+      Barrel (1): 700096607
+      Barrel (2): 1955259227
+      Barrel (3): 454017409
+      Big Door 1: -2026003847
+      Big Door 2: -546983005
+      Big Door 3: 186180712
+      Crate: -1538462915
+      D_Floor Button 1: -480303009
+      D_Floor Button 2: -491073632
+      D_Trap 1: 1066940026
+      D_Trap 2: 1634784820
+      Door 1: -865460946
+      Door 2: 965232935
+      Door 3: 563237381
+      Empty Chest 1: 1749261009
+      Empty Chest 2: -635089212
+      Empty Chest 3: 1227278090
+      Full Chest 1: 732286879
+      Full Chest 2: -1909844807
+      Full Chest 3: -1572500767
+      Gate 1: -87124796
+      Gate 2: -995264787
+      Gate 3: 1428458005
+      Gate 4: 296575230
+      Key (1): 2046854730
+      Key (2): 1904770160
+      Ladder (1): -1021232575
+      Ladder (2): 391929110
+      Lever 1: 1404021254
+      Lever 2: -947046293
+      Lever 3: 748986459
+      Lever 4: 293397929
+      Pot (1): 1824077410
+      Pot (2): 1584084013
+      Skeleton1: 210140666
+      Skeleton2: -1712579332
+      Torch: -1256746931
+      Torch 1: -1546411929
+      Torch 2: 928261064
+      Torch 3: -639079157
+      Torch 4: -139329667
+      Wall Torch (1): -1184964707
+      Wall Torch (2): 2121994329
+      Wall Torch (3): -1557203321
+      Wall Torch (4): 854386997
+      Window: -1324795432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

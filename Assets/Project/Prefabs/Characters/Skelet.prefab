@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 389379659586365112}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6133764, y: -7.8988733, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -63,7 +63,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &3543923409259868784
 CapsuleCollider2D:
@@ -99,8 +99,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.037038185, y: 0}
-  m_Size: {x: 0.7716128, y: 1.7999997}
+  m_Offset: {x: -0.0223969, y: -0.10806385}
+  m_Size: {x: 1.2795122, y: 2.0161269}
   m_Direction: 0
 --- !u!212 &7387956658686538928
 SpriteRenderer:
@@ -204,7 +204,6 @@ MonoBehaviour:
   body: {fileID: 901659192062491852}
   _anim: {fileID: 7334473956172973135}
   defaultSpeed: 2
-  knockbackTotalTime: 0.5
 --- !u!114 &1276697724055318730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 100
   maxHealth: 0
-  knockbackTotalTime: 0.5
+  knockbackTimer: 0
+  knockbackTotalTime: 0.25
 --- !u!1 &3904284003188465195
 GameObject:
   m_ObjectHideFlags: 0

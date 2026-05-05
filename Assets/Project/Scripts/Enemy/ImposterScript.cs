@@ -101,15 +101,18 @@ public void ApplyKnockback(Vector2 direction, float force)
 public void Damage(int damage)
     {
        healthPoints -= damage;
+        anim.SetTrigger("isHit");
         if(healthPoints <= 0)
         {
+     
             Death();
         }
     }
 
 private void Death()
     {
-       
+        //this.enabled = false;
+   anim.SetTrigger("isDead");
         // death animation 1 min
         // fade in death 1 min
         Destroy(gameObject, 2.5f);
