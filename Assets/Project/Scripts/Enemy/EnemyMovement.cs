@@ -76,15 +76,16 @@ public class EnemyMovement : MonoBehaviour
 
         body.linearVelocity = _speed * Time.fixedDeltaTime *direction;
 
-        distance = Vector3.Distance(transform.position, m_Target.transform.position);
+        distance = Vector3.Distance(transform.position, m_Target.transform.position); // general movement
 
         if (distance <= chaseRange)
-        {
+        { 
+            // moving to movement
             Vector3 temp = Vector3.MoveTowards(transform.position, m_Target.position, _speed * Time.fixedDeltaTime);
             _anim.SetBool("Walk", true);
             ChangeAnimation(temp - transform.position);
             body.MovePosition(temp);
-
+        
             CanMove();
 
             if (distance <= attackRange)
@@ -109,7 +110,7 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    void SetAnimFloat(Vector2 setVector)
+    void SetAnimFloat(Vector2 setVector) // for animation
     {
         _anim.SetFloat("moveX", setVector.x);
         _anim.SetFloat("moveY", setVector.y);
@@ -123,7 +124,7 @@ public class EnemyMovement : MonoBehaviour
 
 
     }
-    void ChangeAnimation(Vector2 dir)
+    void ChangeAnimation(Vector2 dir) // for directional movement
     {
         if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
         {

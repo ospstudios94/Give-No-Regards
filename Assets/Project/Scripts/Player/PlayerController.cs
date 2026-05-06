@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -18,14 +19,15 @@ public class PlayerController : MonoBehaviour, IDamagable
     bool canRun = false;
     bool canMove = true;
     bool canThrow = false;
-  
-    bool canAttack = false;
+    bool canDodge = false;
+   public bool canAttack = false;
 
     private WaitForSeconds wait;
     private WaitForSecondsRealtime realTime;
     private float lastThrowTime;
     private float lastAttackRate;
-
+    
+    
     Vector2 screenBounds;
     private float objectWidth;
     private float objectHeight;
@@ -45,7 +47,7 @@ public class PlayerController : MonoBehaviour, IDamagable
 
     [Header("Attack Attributes")]
     [SerializeField]private float attackRate = 1f;
-    [SerializeField]GameObject[] hitColliders; // for activating/Deactivating
+    public GameObject[] hitColliders; // for activating/Deactivating
 
     [Header("Player Health")]
     public int hp = 100;
@@ -72,8 +74,16 @@ public class PlayerController : MonoBehaviour, IDamagable
 
     private int totalCount = 0;
     public int maxUse =3;
-    Animator anim;
 
+    [Header("Dodging")]
+    public float dodgeRate = 1.0f; // dodge cool down
+    private float lastDodgeTime;
+    public float dodgeForce = 15;
+    public float dodgeDuration = .25f;
+
+
+    Animator anim;
+   
     // int combo = 0;
     // public float comboWindow = .2f;
     void Awake()
@@ -111,6 +121,8 @@ public class PlayerController : MonoBehaviour, IDamagable
       games.Player.Attack.performed += InitiateAttack;
 
         games.Player.Interact.performed += Interaction;
+
+
         games.Player.Rest.performed += ctx => isRestoring = true;
         games.Player.Rest.canceled += ctx => isRestoring  = false;
 
@@ -183,6 +195,7 @@ public class PlayerController : MonoBehaviour, IDamagable
     {
         if(Time.time > throwRate + lastThrowTime)
        {
+           
             lastThrowTime = Time.time;
             anim.SetTrigger("Throw");
             //StartCoroutine(ThrowObject());
@@ -204,7 +217,7 @@ public class PlayerController : MonoBehaviour, IDamagable
     //     canThrow = false;
     // }
 
-    public void Throwing()
+    public void Throwing() // for animator
     {
         GameObject bulletObj = Instantiate(throwItem, throwPoint.position, Quaternion.identity);
         PlayerProjectile pScript = bulletObj.GetComponent<PlayerProjectile>();
@@ -214,6 +227,38 @@ public class PlayerController : MonoBehaviour, IDamagable
         }
         Rigidbody2D newRig = bulletObj.GetComponent<Rigidbody2D>();
         newRig.AddForce(lastFacingDirection * throwForce, ForceMode2D.Impulse);
+    }
+
+    IEnumerator  Dodging()
+    {
+        canDodge = true;
+        
+     lastDodgeTime = Time.time + dodgeRate;
+     // ghost trail here.. 
+    StartCoroutine(FadePerson());
+    float elapsed = 0;
+     float duration = dodgeDuration; // Short and fast // add something later
+    while (elapsed < duration)
+    {
+        ImposterScript impose = FindAnyObjectByType<ImposterScript>();
+        Vector2 enemDirection = (Vector2)impose.transform.position;
+        // MovePosition ensures the physics engine sees the move every frame
+        Vector2 newPos = rig.position + (enemDirection - direction  * dodgeForce * Time.deltaTime);
+        rig.MovePosition(newPos);
+        
+        elapsed += Time.deltaTime;
+        yield return null; // Wait for next frame
+    }
+      
+               
+       
+        canDodge = false;
+        
+    }
+
+    private IEnumerator FadePerson()
+    {
+       yield return new WaitForSeconds(.3f);
     }
 
     // Update is called once per frame
@@ -248,6 +293,17 @@ public class PlayerController : MonoBehaviour, IDamagable
             }
         }
 
+        if(Keyboard.current.rightShiftKey.wasPressedThisFrame && Time.time >= lastDodgeTime)
+        {
+            Vector2 di = direction;
+            if(di == Vector2.zero)
+            {
+                 di = new Vector2(anim.GetFloat("moveX"), anim.GetFloat("moveY"));
+        
+            }
+            StartCoroutine(Dodging());
+        }
+
    //if(games.Player.Attack.WasPressedThisFrame())
    //     {
    //         HandleAttacks();
@@ -258,7 +314,7 @@ public class PlayerController : MonoBehaviour, IDamagable
     void FixedUpdate()
     {
         KnockBackTimer();
-        if (canThrow || canAttack) return;
+        if (canThrow || canAttack || canDodge) return;
         direction = games.Player.Move.ReadValue<Vector2>();
         if (direction.sqrMagnitude > 0.01f)
         {
@@ -323,14 +379,14 @@ public class PlayerController : MonoBehaviour, IDamagable
         if (pressure <= 0)
         {
             damageTickTimer += Time.fixedDeltaTime;
-            if (damageTickTimer >= 2.0f) // Deal damage every 0.5 seconds
+            if (damageTickTimer >= 2.0f) // Deal damage every 2 seconds
             {
                 Damage((int)healthDrainRate);
                 damageTickTimer = 0;
             }
         }
      
-         if (pressurePercent <= 10f)
+         if (pressurePercent <= 20f)
          {
          heartbeatTimer -= Time.deltaTime;
         
@@ -387,6 +443,7 @@ public class PlayerController : MonoBehaviour, IDamagable
 
             // If the timer just finished, stop the movement completely
             if (knockbackTimer <= 0) rig.linearVelocity = Vector2.zero;
+           
         }
     }
 
@@ -419,7 +476,7 @@ public class PlayerController : MonoBehaviour, IDamagable
         
             if(anim.GetFloat("lastY") == 1)
             {
-                hitColliders[1].gameObject.SetActive(true);
+            hitColliders[1].gameObject.SetActive(true);
             }
             if(anim.GetFloat("lastY") == -1)
             {
@@ -439,6 +496,7 @@ public class PlayerController : MonoBehaviour, IDamagable
 
     public void Damage(int damage)
     {
+        //if(canDodge) return;
        hp -= damage;
        if(hp <= 0)
         {
@@ -459,6 +517,7 @@ public class PlayerController : MonoBehaviour, IDamagable
 
     public void ApplyKnockback(Vector2 direction, float force)
 {
+   
     knockbackTimer = knockbackTotalTime; // Start the timer
     rig.linearVelocity = Vector2.zero;          // Reset current velocity first
     rig.AddForce(direction * force, ForceMode2D.Impulse);
@@ -514,4 +573,5 @@ public class PlayerController : MonoBehaviour, IDamagable
     {
         games.Dispose();
     }
+    
 }

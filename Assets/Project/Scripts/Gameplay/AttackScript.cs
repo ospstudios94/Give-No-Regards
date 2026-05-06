@@ -6,7 +6,7 @@ public class AttackScript : MonoBehaviour
     /// This is for the Imposter only
     /// </summary>
      public int damageOutput = 5;
-    public float knockbackForce = 50f;
+    public float knockbackForce = 20f;
 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -23,6 +23,7 @@ public class AttackScript : MonoBehaviour
                 damageable.Damage(damageOutput);
                
             }
+        
             Enemy newEnemy = other.GetComponent<Enemy>();
             if(newEnemy != null)
             {
