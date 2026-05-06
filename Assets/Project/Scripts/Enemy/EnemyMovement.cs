@@ -90,6 +90,7 @@ public class EnemyMovement : MonoBehaviour
 
             if (distance <= attackRange)
             {
+                // attack state
                 StopMoving();
                 _anim.SetBool("Walk", false);
                 if (Time.time - attackTime > attackRate)
